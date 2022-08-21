@@ -1,0 +1,88 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.1em;
+}
+
+.logo {
+  font-size: 32px;
+}
+.logo a span {
+  color: #f52;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1420px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.menu {
+  padding: 10px 0 5px;
+}
+
+.iphone-slider__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.iphone-slider__img {
+  max-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.characteristics {
+  padding: 75px 0 75px;
+}
+.characteristics__title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.characteristics__subtitle {
+  font-size: 19px;
+  margin: 20px 0 15px;
+}
+.characteristics__img {
+  height: 100px;
+}
+.characteristics__list {
+  list-style-type: none;
+}
+.description__title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.description__info {
+  text-align: justify;
+  line-height: 22px;
+}
+
+.feedback {
+  padding: 75px 0 75px;
+}
+.feedback__title {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.feedback__subtitle {
+  font-size: 19px;
+  margin: 20px 0 15px;
+}
+.feedback__man-img {
+  height: 200px;
+}
+.feedback__img {
+  height: 30px;
+  margin-bottom: 10px;
+}

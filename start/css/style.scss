@@ -1,0 +1,111 @@
+*, 
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.1em;
+}
+
+.logo{
+    font-size: 32px;
+    & a span{
+        color: #f52;
+        text-decoration: none;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1420px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.menu{
+    padding: 10px 0 5px;
+}
+
+.iphone-slider{
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img{
+        max-height: 400px;
+        object-fit: cover; 
+    }
+}
+
+.characteristics {
+    padding: 75px 0 75px;
+    &__title{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    &__subtitle{
+        font-size: 19px;
+        margin: 20px 0 15px;
+    }
+    &__btn{
+        
+    }
+    &__img{
+        height: 100px;
+    }
+    &__info{
+
+    }
+    &__list{
+        list-style-type: none;
+    }
+    &__item + &__item{
+        
+    }
+}
+
+.description{
+    &__inner{
+        
+    }
+    &__title{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    &__info{
+        text-align: justify;
+        line-height: 22px;
+    }
+}
+
+.feedback {
+    padding: 75px 0 75px;
+    &__inner{
+
+    }
+    &__title{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    &__subtitle{
+        font-size: 19px;
+        margin: 20px 0 15px;
+    }
+    &__man-img{
+        height: 200px;
+    }
+    &__img{
+        height: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+.footer {
+
+}
