@@ -11,10 +11,13 @@ body{
 }
 
 .logo{
-    font-size: 32px;
-    & a span{
+    &__title{
+        font-size: 32px;
+        display: inline-block;
+        vertical-align: 4px;
+    }
+    &__title-span{
         color: #f52;
-        text-decoration: none;
     }
 }
 
@@ -70,6 +73,14 @@ a{
     }
 }
 
+.iframe{
+    margin-bottom: 75px;
+    &__img{
+        width: 450px;
+        height: 450px;
+    }
+}
+
 .description{
     &__inner{
         
@@ -84,12 +95,36 @@ a{
     }
 }
 
+
+
+.model{
+    padding-top: 75px;
+    &__title{
+        margin: 0 0 15px 13px;
+        font-size: 24px;
+    }
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    grid-gap: 30px;
+    text-align: center;
+    &__title{
+        margin-bottom: 5px;
+    }
+    &__item{
+        margin-bottom: 5px;
+    }
+}
+
 .feedback {
     padding: 75px 0 75px;
     &__inner{
 
     }
     &__title{
+        display: inline-block;
         font-size: 24px;
         margin-bottom: 15px;
     }
@@ -104,8 +139,32 @@ a{
         height: 30px;
         margin-bottom: 10px;
     }
+    &__number{
+        display: inline-block;
+        color: #aaaaaa;
+    }
+
+    &__btn{
+        display: inline-block;
+        border: 2px solid #000000;
+        padding: 1px 6px;
+        text-rendering: auto;
+        background: #f0f0f0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13.33px;
+        text-align: center;
+        cursor: pointer;
+    }
+    &__btn:hover{
+        background: #aaaaaa;
+        //Максим, откуда взять стандартный ховерный эффект кнопки?
+    }
 }
+
+
 
 .footer {
 
 }
+
+
