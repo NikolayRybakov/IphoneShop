@@ -1,0 +1,13 @@
+@import "__subtitle/price__subtitle";
+@import "__delivery/price__delivery";
+@import "__discount/price__discount";
+@import "__text/price__text";
+@import "__discount-info/price__discount-info";
+@import "__button/price__button";
+
+.price{
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+}

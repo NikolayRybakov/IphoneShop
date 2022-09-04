@@ -1,0 +1,9 @@
+.sidebar__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  max-width: 460px;
+  min-height: 315px;
+}

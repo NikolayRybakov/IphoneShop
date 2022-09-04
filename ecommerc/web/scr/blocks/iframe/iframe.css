@@ -1,0 +1,18 @@
+.iframe__commercial {
+  background: #F0F0F0;
+  border: 1px dashed #888888;
+  color: #888888;
+  font-size: 14px;
+  line-height: 17px;
+  width: 420px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.iframe__ads {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #888888;
+  margin-bottom: 10px;
+}

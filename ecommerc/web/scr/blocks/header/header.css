@@ -1,0 +1,8 @@
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.header_padding {
+  padding-top: 19px;
+}

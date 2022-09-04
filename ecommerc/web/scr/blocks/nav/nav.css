@@ -1,0 +1,9 @@
+.nav__link {
+  font-weight: 400;
+  color: #008CF0;
+  text-decoration: none;
+}
+
+.nav_padding {
+  padding: 27px 0 8px;
+}

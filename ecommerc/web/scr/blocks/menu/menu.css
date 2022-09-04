@@ -1,0 +1,12 @@
+.menu__link {
+  color: #008CF0;
+  text-decoration: none;
+}
+
+.menu__item {
+  margin-top: 10px;
+}
+
+.menu {
+  padding-left: 18px;
+}

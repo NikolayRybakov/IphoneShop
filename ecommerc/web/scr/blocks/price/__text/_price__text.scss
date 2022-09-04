@@ -1,0 +1,11 @@
+.price{
+    &__text{
+        font-weight: 400;
+        span{
+        font-weight: 700;
+        }
+    }
+    &__text + &__text{
+        padding-top: 10px;
+    }
+}
