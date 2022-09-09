@@ -1,6 +1,11 @@
 .color__group {
   display: flex;
   gap: 10px;
+  cursor: pointer;
+}
+
+.color__border:hover {
+  background: #F2F2F2;
 }
 
 .color__border {

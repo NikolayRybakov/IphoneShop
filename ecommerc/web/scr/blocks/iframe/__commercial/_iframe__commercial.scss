@@ -10,3 +10,9 @@
         margin-bottom: 15px;
     }
 }
+
+.iframe{
+    &__commercial:last-child{
+        margin-bottom: 0;
+    }
+}

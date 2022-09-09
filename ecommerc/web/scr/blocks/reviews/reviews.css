@@ -1,0 +1,20 @@
+.reviews__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin-right: 10px;
+}
+
+.reviews__number {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #888888;
+  margin-right: auto;
+}

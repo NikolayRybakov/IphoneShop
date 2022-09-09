@@ -1,0 +1,11 @@
+.review__name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.review {
+  display: flex;
+  gap: 30px;
+}

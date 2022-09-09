@@ -1,9 +1,15 @@
+.button:hover {
+  background: #F2F2F2;
+}
+
 .button {
+  display: inline-block;
   text-align: center;
+  vertical-align: middle;
   padding: 10px 20px;
   border: 1px solid #888888;
   border-radius: 4px;
-  width: 98px;
-  height: 39px;
+  font-weight: 500;
+  min-width: 96px;
   cursor: pointer;
 }

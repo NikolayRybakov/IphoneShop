@@ -9,6 +9,10 @@
   margin-bottom: 15px;
 }
 
+.iframe__commercial:last-child {
+  margin-bottom: 0;
+}
+
 .iframe__ads {
   font-weight: 400;
   font-size: 14px;

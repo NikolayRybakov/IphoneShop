@@ -1,11 +1,12 @@
+@import "_hover/price__button_hover";
+
 .price{
     &__button{
         background: #F36223;
-        padding: 20px 49px;
-        width: 380px;
-        height: 64px;
+        padding: 20px 5px;
+        max-width: 100%;
         color: #FFFFFF;
-        font-size: 400px;
+        font-weight: 400;
         font-size: 20px;
         line-height: 24px;
         text-align: center;
