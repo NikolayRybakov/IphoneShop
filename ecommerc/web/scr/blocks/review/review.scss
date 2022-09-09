@@ -1,4 +1,10 @@
 @import "__name/review__name";
+@import "__stars/review__stars";
+@import "__star/review__star";
+@import "__text/review__text";
+@import "__content/review__content";
+@import "__img/review__img";
+@import "__photo/review__photo";
 
 .review{
     display: flex;

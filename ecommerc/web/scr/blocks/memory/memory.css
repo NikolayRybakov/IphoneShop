@@ -2,7 +2,3 @@
   display: flex;
   gap: 10px;
 }
-
-.memory__color {
-  color: red;
-}

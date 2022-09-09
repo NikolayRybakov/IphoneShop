@@ -113,10 +113,6 @@
   gap: 10px;
 }
 
-.memory__color {
-  color: red;
-}
-
 .description__text + .description__text {
   padding-top: 15px;
 }
@@ -233,8 +229,8 @@
   text-decoration: none;
 }
 
-.nav_padding {
-  padding: 27px 0 8px;
+.nav__padding {
+  padding-top: 27px;
 }
 
 .reviews__top {
@@ -258,6 +254,10 @@
   margin-right: auto;
 }
 
+.reviews {
+  padding-top: 66px;
+}
+
 .review__name {
   font-weight: 700;
   font-size: 20px;
@@ -265,9 +265,35 @@
   margin-bottom: 10px;
 }
 
+.review__stars {
+  margin-bottom: 20px;
+}
+
+.review__star {
+  height: 30px;
+  width: 30px;
+}
+
+.review__text {
+  font-size: 14px;
+  line-height: 17px;
+}
+.review__text span {
+  display: block;
+  font-weight: 700;
+}
+.review__text + .review__text {
+  padding-top: 10px;
+}
+
 .review {
   display: flex;
   gap: 30px;
+}
+
+.line {
+  border: 1px solid #888888;
+  margin: 40px 0 40px;
 }
 
 *,

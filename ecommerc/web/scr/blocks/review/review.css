@@ -5,6 +5,27 @@
   margin-bottom: 10px;
 }
 
+.review__stars {
+  margin-bottom: 20px;
+}
+
+.review__star {
+  height: 30px;
+  width: 30px;
+}
+
+.review__text {
+  font-size: 14px;
+  line-height: 17px;
+}
+.review__text span {
+  display: block;
+  font-weight: 700;
+}
+.review__text + .review__text {
+  padding-top: 10px;
+}
+
 .review {
   display: flex;
   gap: 30px;

@@ -1,0 +1,14 @@
+.review{
+    &__text{
+        font-size: 14px;
+        line-height: 17px;
+    span{
+        display: block;
+        font-weight: 700;
+    }
+    }
+    &__text + &__text{
+        padding-top: 10px;
+    }
+    
+}
