@@ -1,0 +1,28 @@
+.form-review__input {
+  margin-bottom: 20px;
+}
+
+.form-review__textarea {
+  margin-bottom: 20px;
+  min-width: 650px;
+}
+
+.form-review__button {
+  margin-bottom: 10px;
+}
+
+.form-review__legend {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.form-review__textarea-box {
+  min-width: 312px;
+  min-height: 100px;
+}
+
+.form-review__fieldset {
+  max-width: 650px;
+}

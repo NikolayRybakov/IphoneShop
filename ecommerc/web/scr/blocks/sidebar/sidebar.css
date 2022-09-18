@@ -4,6 +4,10 @@
   max-width: 420px;
 }
 
+.sidebar__top {
+  padding-top: 30px;
+}
+
 .sidebar {
   max-width: 460px;
   min-height: 315px;

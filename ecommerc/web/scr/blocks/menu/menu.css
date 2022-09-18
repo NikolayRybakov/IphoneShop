@@ -6,7 +6,16 @@
 .menu__item {
   margin-top: 10px;
 }
+.menu__item::before {
+  content: "";
+  display: inline-block;
+  background: #888888;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
 
-.menu {
-  padding-left: 18px;
+.menu__list {
+  list-style: none;
 }

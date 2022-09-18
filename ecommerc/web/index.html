@@ -20,17 +20,17 @@
     <div class="header">
       <div class="container">
         <div class="header__inner">
-          <a class="logo " href="#">
+          <a class="logo" id="logo">
             <img class="logo__img" src="../static/images/apple-touch-icon.png" alt="logo">
           </a>
-          <h1 class="logo__title" id="up">IphoneShop</h1>
+          <h1 class="logo__title">IphoneShop</h1>
         </div>
       </div>
     </div>
     <div class="nav nav__padding">
       <div class="container">
         <div class="nav__item">
-          <a class="nav__link" href="/">Электроника></a>
+          <a class="nav__link" href="/">Электроника ></a>
           <a class="nav__link" href="/">Смарфтоны и гаджеты ></a>
           <a class="nav__link" href="/">Мобильные телефоны ></a>
           <a class="nav__link" href="/">Apple</a>
@@ -56,9 +56,7 @@
         <div class="characteristics">
           <div class="characteristics__inner">
     
-
-            
-            <div class="color padding-top">
+            <div class="color characteristics__color">
                 <h3 class="subtitle subtitle_margin-bottom">Цвет товара: синий</h3>
                 <div class="color__group">
                   <div class="color__border">
@@ -82,7 +80,7 @@
                 </div>
             </div>
     
-            <div class="memory padding-top">
+            <div class="memory characteristics__top">
                 <h3 class="subtitle subtitle_margin-bottom">Конфигурация памяти: 128 ГБ</h3>
                 <div class="memory__inner">
                   <div class="button">128 ГБ</div>
@@ -91,19 +89,21 @@
                 </div>
             </div>
     
-            <div class="goods padding-top">
+            <div class="goods characteristics__top">
                 <h3 class="subtitle subtitle_margin-bottom">Характеристики товара</h3>
-                <ul class="menu">
-                  <li class="menu__item">Экран: 6.1</li>
-                  <li class="menu__item">Встроенная память: 128 ГБ</li>
-                  <li class="menu__item">Операционная система: iOS 15</li>
-                  <li class="menu__item">Беспроводные интерфейсы: NFC, Bluetooth, Wi-Fi</li>
-                  <li class="menu__item">Процессор: <a class="menu__link" href="">Apple A15 Bionic</a></li>
-                  <li class="menu__item">Вес: 173 г</li>
-                </ul>
+                <div class="menu">
+                  <ul class="menu__list">
+                    <li class="menu__item">Экран: 6.1</li>
+                    <li class="menu__item">Встроенная память: 128 ГБ</li>
+                    <li class="menu__item">Операционная система: iOS 15</li>
+                    <li class="menu__item">Беспроводные интерфейсы: NFC, Bluetooth, Wi-Fi</li>
+                    <li class="menu__item">Процессор: <a class="menu__link" href="">Apple A15 Bionic</a></li>
+                    <li class="menu__item">Вес: 173 г</li>
+                  </ul>
+                </div>
             </div>
     
-            <div class="description padding-top">
+            <div class="description characteristics__top">
                 <h3 class="subtitle subtitle_margin-bottom">Описание</h3>
                 <div class="description__inner">
                   <p class="description__text">Наша самая совершенная система двух камер. <br>
@@ -128,6 +128,60 @@
                 </div>
             </div>
 
+            <div class="table characteristics__table">
+              <h3 class="subtitle subtitle_margin-bottom">Сравнение моделей</h3>
+              <div class="table__inner">
+                <div class="table__column">
+                  <h3 class="table__title">Модель</h3>
+                  <div class="table__descr">iPhone 11</div>
+                  <div class="table__descr">iPhone 12</div>
+                  <div class="table__descr">iPhone 13</div>
+                </div>
+                <div class="table__column">
+                  <h3 class="table__title">Вес</h3>
+                  <div class="table__descr">194 грамма</div>
+                  <div class="table__descr">164 грамма</div>
+                  <div class="table__descr">174 грамма</div>
+                </div>
+                <div class="table__column">
+                  <h3 class="table__title">Высота</h3>
+                  <div class="table__descr">150.9 мм</div>
+                  <div class="table__descr">146.7 мм</div>
+                  <div class="table__descr">146.7 мм</div>
+                </div>
+                <div class="table__column">
+                  <h3 class="table__title">Ширина</h3>
+                  <div class="table__descr">75.7 мм</div>
+                  <div class="table__descr">71.5 мм</div>
+                  <div class="table__descr">71.5 мм</div>
+                </div>
+                <div class="table__column">
+                  <h3 class="table__title">Толщина</h3>
+                  <div class="table__descr">8.3 мм</div>
+                  <div class="table__descr">7.4 мм</div>
+                  <div class="table__descr">7.65 мм</div>
+                </div>
+                <div class="table__column">
+                  <h3 class="table__title">Чип</h3>
+                  <div class="table__descr">A13 Bionic chip</div>
+                  <div class="table__descr">A14 Bionic chip</div>
+                  <div class="table__descr">A15 Bionic chip</div>
+                </div>
+                <div class="table__column">
+                  <h3 class="table__title">Объём памяти</h3>
+                  <div class="table__descr">до 128 Гб</div>
+                  <div class="table__descr">до 256 Гб</div>
+                  <div class="table__descr">до 512 Гб</div>
+                </div>
+                <div class="table__column">
+                  <h3 class="table__title">Аккумулятор</h3>
+                  <div class="table__descr">до 17 часов</div>
+                  <div class="table__descr">до 19 часов</div>
+                  <div class="table__descr">до 19 часов</div>
+                </div>
+              </div>
+            </div>
+
             <div class="reviews">
               <div class="reviews__inner">
                 <div class="reviews__top">
@@ -135,10 +189,8 @@
                     Отзывы
                   </h2>
                   <div class="reviews__number">
-                    425
-                  </div>
-                  <div class="button">
-                    Добавить отзыв
+                    <label for="raiting"></label>
+                    <input type="number" id="raiting" name="raiting" min="1" max="5">
                   </div>
                 </div>
             
@@ -188,11 +240,27 @@
                     <p class="review__text"><span>Недостатки:</span> Плохая ремонтопригодность</p>
                   </div>
                 </div>
+
+                <div class="form-review padding-top">
+                  <form class="form-review__info" action="">
+                    <fieldset class="form-review__fieldset">
+                      <legend class="form-review__legend">Отзыв</legend>
+                      <div class="form-review__input">
+                        <label class="form-review__label" for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name">
+                      </div>
+                      <div class="form-review__textarea">
+                        <textarea class="form-review__textarea-box"></textarea>
+                      </div>
+                      <div class="button form-review__button">Добавить отзыв</div>
+                    </fieldset>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
     
-          <div class="sidebar padding-top">
+          <div class="sidebar characteristics__top">
               <div class="sidebar__inner">
                 <div class="price">
                   <span class="price__discount">75 990₽</span>
@@ -204,7 +272,7 @@
                   </div>
                   <div class="price__button">Добавить в корзину</div>
                 </div>
-                <div class="iframe padding-top">
+                <div class="iframe sidebar__top">
                   <h3 class="iframe__ads">Реклама</h3>
                   <iframe class="iframe__commercial" src=""></iframe>
                   <iframe class="iframe__commercial" src=""></iframe>
@@ -215,7 +283,21 @@
       </div>
     </div>
 
-
+    <div class="footer container footer__container">
+        <div class="footer__inner">
+          <div class="footer__contacts">
+            <h5 class="footer__name">
+              © ООО «IphoneShop», 2018-2022
+            </h5>
+            <p class="footer__info">
+              Для уточнения информации звоните по номеру <a href="tel:+79000000000">+7 900 000 0000,</a>
+            </p>
+            <p class="footer__info">а предложения по сотрудничеству отправляйте на почту <a
+              href="mailto:partner@mymarket.com">partner@mymarket.com</a></p>
+          </div>
+          <a class="footer__anchor" href="#logo">Навверх</a>
+        </div>
+    </div>
   <script src="js/main.js"></script>
 </body>
 </html>

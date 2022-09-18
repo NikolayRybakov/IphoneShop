@@ -1,0 +1,25 @@
+.table__column {
+  border: 1px solid #888888;
+  text-align: center;
+  font-weight: 400;
+}
+
+.table__descr {
+  margin-bottom: 20px;
+}
+
+.table__inner {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-template-rows: 156px;
+}
+
+.table__title {
+  border-bottom: 1px solid #888888;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+
+.characteristics__table {
+  padding-top: 30px;
+}
