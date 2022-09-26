@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 .reviews__title {
@@ -17,8 +18,4 @@
   line-height: 29px;
   color: #888888;
   margin-right: auto;
-}
-
-.reviews {
-  padding-top: 66px;
 }

@@ -2,4 +2,9 @@
 @import "__descr/table__descr";
 @import "__inner/table__inner";
 @import "__title/table__title";
-@import "__table/characteristics__table";
+
+@media (width: 1024px) {
+    .table{
+        display: none;
+    }
+}

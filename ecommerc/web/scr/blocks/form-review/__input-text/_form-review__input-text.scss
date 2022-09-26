@@ -1,0 +1,22 @@
+.form-review{
+    &__input-text{
+        width: 494px;
+        height: 49px;
+    }
+}
+
+.form-review{
+    &__input-text::placeholder{
+        color: #888888;
+        padding: 15px 0 0 20px;
+    }
+}
+
+@media (width: 1024px) {
+    .form-review{
+        &__input-text{
+            width: 378px;
+        }
+    }
+}
+

@@ -37,7 +37,14 @@
   border-radius: 4px;
 }
 
+.price__button:active {
+  background-color: #A93A09;
+}
+
 .price__button {
+  display: flex;
+  gap: 17px;
+  justify-content: center;
   background: #F36223;
   padding: 20px 5px;
   max-width: 100%;
@@ -45,10 +52,44 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
   cursor: pointer;
 }
+.price__button::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../../../static/images/basket.svg");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
+.price__heart-link:hover {
+  stroke: #A93A09;
+}
+
+.price__heart-link:active {
+  stroke: #F36223;
+}
+
+.price__heart-link {
+  display: inline-block;
+  color: #888888;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 9px;
+  right: -218px;
+}
+
+@media (width: 1024px) {
+  .price__heart-link {
+    content: "";
+    position: relative;
+    top: 9px;
+    right: -157px;
+  }
+}
 .price {
   border: 1px solid #EEEEEE;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);

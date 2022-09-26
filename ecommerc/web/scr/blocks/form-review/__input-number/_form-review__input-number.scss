@@ -1,0 +1,14 @@
+.form-review{
+    &__input-number{
+        width: 175px;
+        height: 49px;
+        margin-left: 36px;
+    }
+}
+
+.form-review{
+    &__input-number::placeholder{
+        color: #888888;
+        padding: 15px 0 0 20px;
+    }
+}

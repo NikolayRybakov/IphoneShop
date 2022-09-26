@@ -3,3 +3,11 @@
         margin-bottom: 20px;
     }
 }
+
+@media (width: 1024px) {
+    .review {
+        &__stars{
+            margin-bottom: 10px;
+        }
+    }
+}

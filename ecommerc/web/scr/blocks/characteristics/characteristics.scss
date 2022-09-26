@@ -1,5 +1,13 @@
 @import "__inner/characteristics__inner";
 @import "__top/characteristics__top";
+@import "__color/characteristics__color";
+@import "__memory/characteristics__memory";
+@import "__goods/characteristics__goods";
+@import "__description/characteristics__description";
+@import "__table/characteristics__table";
+@import "__reviews/characteristics__reviews";
+@import "__form-review/characteristics__form-review";
+@import "__sidebar/characteristics__sidebar";
 
 .characteristics{
     display: flex;

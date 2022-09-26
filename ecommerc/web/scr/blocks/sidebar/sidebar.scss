@@ -1,7 +1,13 @@
 @import "__inner/sidebar__inner";
-@import "__top/sidebar__top";
+@import "__iframe/sidebar__iframe";
 
 .sidebar{
     max-width: 460px;
     min-height: 315px;
+}
+
+@media (width: 1024px) {
+    .sidebar{
+        max-width: 360px; 
+    }
 }

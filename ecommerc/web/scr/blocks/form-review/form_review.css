@@ -3,26 +3,93 @@
 }
 
 .form-review__textarea {
-  margin-bottom: 20px;
-  min-width: 650px;
+  max-width: 710px;
+  margin-bottom: 30px;
 }
 
 .form-review__button {
-  margin-bottom: 10px;
-}
-
-.form-review__legend {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 26px;
-  margin-bottom: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  max-width: 177px;
+  max-height: 39px;
+  padding: 10px 20px;
+  background-color: #F36223;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
 }
 
 .form-review__textarea-box {
-  min-width: 312px;
-  min-height: 100px;
+  width: 710px;
+  height: 190px;
 }
 
-.form-review__fieldset {
-  max-width: 650px;
+.form-review__textarea-box::-moz-placeholder {
+  color: #888888;
+  padding: 15px 0 0 20px;
+}
+
+.form-review__textarea-box:-ms-input-placeholder {
+  color: #888888;
+  padding: 15px 0 0 20px;
+}
+
+.form-review__textarea-box::placeholder {
+  color: #888888;
+  padding: 15px 0 0 20px;
+}
+
+@media (width: 1024px) {
+  .form-review__textarea-box {
+    width: 594px;
+  }
+}
+.form-review__input-number {
+  width: 175px;
+  height: 49px;
+  margin-left: 36px;
+}
+
+.form-review__input-number::-moz-placeholder {
+  color: #888888;
+  padding: 15px 0 0 20px;
+}
+
+.form-review__input-number:-ms-input-placeholder {
+  color: #888888;
+  padding: 15px 0 0 20px;
+}
+
+.form-review__input-number::placeholder {
+  color: #888888;
+  padding: 15px 0 0 20px;
+}
+
+.form-review__input-text {
+  width: 494px;
+  height: 49px;
+}
+
+.form-review__input-text::-moz-placeholder {
+  color: #888888;
+  padding: 15px 0 0 20px;
+}
+
+.form-review__input-text:-ms-input-placeholder {
+  color: #888888;
+  padding: 15px 0 0 20px;
+}
+
+.form-review__input-text::placeholder {
+  color: #888888;
+  padding: 15px 0 0 20px;
+}
+
+@media (width: 1024px) {
+  .form-review__input-text {
+    width: 378px;
+  }
+}
+.form-review__subtitle {
+  margin-bottom: 15px;
 }

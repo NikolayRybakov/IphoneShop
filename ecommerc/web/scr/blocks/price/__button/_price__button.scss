@@ -1,7 +1,11 @@
 @import "_hover/price__button_hover";
+@import "_active/price__active";
 
 .price{
     &__button{
+        display: flex;
+        gap: 17px;
+        justify-content: center;
         background: #F36223;
         padding: 20px 5px;
         max-width: 100%;
@@ -9,7 +13,17 @@
         font-weight: 400;
         font-size: 20px;
         line-height: 24px;
-        text-align: center;
         cursor: pointer;
     }
+
+    &__button::before{
+        content: "";
+        display: inline-block;
+        background-image: url("../../../static/images/basket.svg");
+        width: 24px;
+        height: 24px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
 }
+

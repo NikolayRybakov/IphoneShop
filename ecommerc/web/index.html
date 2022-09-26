@@ -27,7 +27,7 @@
         </div>
       </div>
     </div>
-    <div class="nav nav__padding">
+    <div class="nav">
       <div class="container">
         <div class="nav__item">
           <a class="nav__link" href="/">Электроника ></a>
@@ -49,7 +49,6 @@
         </div>
       </div>
     </div>
-
 
     <div class="info">
       <div class="container">
@@ -80,7 +79,7 @@
                 </div>
             </div>
     
-            <div class="memory characteristics__top">
+            <div class="memory characteristics__memory">
                 <h3 class="subtitle subtitle_margin-bottom">Конфигурация памяти: 128 ГБ</h3>
                 <div class="memory__inner">
                   <div class="button">128 ГБ</div>
@@ -89,7 +88,7 @@
                 </div>
             </div>
     
-            <div class="goods characteristics__top">
+            <div class="goods characteristics__goods">
                 <h3 class="subtitle subtitle_margin-bottom">Характеристики товара</h3>
                 <div class="menu">
                   <ul class="menu__list">
@@ -103,7 +102,7 @@
                 </div>
             </div>
     
-            <div class="description characteristics__top">
+            <div class="description characteristics__description">
                 <h3 class="subtitle subtitle_margin-bottom">Описание</h3>
                 <div class="description__inner">
                   <p class="description__text">Наша самая совершенная система двух камер. <br>
@@ -182,19 +181,18 @@
               </div>
             </div>
 
-            <div class="reviews">
+            <div class="reviews characteristics__reviews">
               <div class="reviews__inner">
                 <div class="reviews__top">
                   <h2 class="reviews__title">
                     Отзывы
                   </h2>
                   <div class="reviews__number">
-                    <label for="raiting"></label>
-                    <input type="number" id="raiting" name="raiting" min="1" max="5">
+                    425
                   </div>
                 </div>
             
-                <div class="review padding-top">
+                <div class="review characteristics__review">
                   <div class="review__photo">
                     <img class="review__img" src="../static/images/review-1.jpg" alt="photo">
                   </div>
@@ -241,30 +239,33 @@
                   </div>
                 </div>
 
-                <div class="form-review padding-top">
+                <div class="form-review characteristics__form-review">
                   <form class="form-review__info" action="">
-                    <fieldset class="form-review__fieldset">
-                      <legend class="form-review__legend">Отзыв</legend>
+                    <h3 class="subtitle form-review__subtitle">
+                      Добавить свой отзыв
+                    </h3>  
                       <div class="form-review__input">
-                        <label class="form-review__label" for="name">Ваше имя:</label>
-                        <input type="text" id="name" name="name">
+                        <input class="form-review__input-text" type="text" name="name" placeholder="Имя и фамилия">
+                        <input class="form-review__input-number" type="number" name="raiting" min="1" max="5" placeholder="Оценка">
                       </div>
                       <div class="form-review__textarea">
-                        <textarea class="form-review__textarea-box"></textarea>
+                        <textarea class="form-review__textarea-box" placeholder="Текст отзыва"></textarea>
                       </div>
-                      <div class="button form-review__button">Добавить отзыв</div>
-                    </fieldset>
+                      <div class="form-review__button">Отправить отзыв</div>
                   </form>
                 </div>
               </div>
             </div>
           </div>
     
-          <div class="sidebar characteristics__top">
+          <div class="sidebar characteristics__sidebar">
               <div class="sidebar__inner">
                 <div class="price">
                   <span class="price__discount">75 990₽</span>
                   <span class="price__discount-info">-8%</span>
+                  <svg class="price__heart-link" width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M2.78502 2.57269C5.17872 0.27474 9.04661 0.27474 11.4403 2.57269L14.0001 5.03017L16.56 2.57269C18.9537 0.27474 22.8216 0.27474 25.2154 2.57269C27.609 4.87064 27.609 8.5838 25.2154 10.8818L14.0001 21.6483L2.78502 10.8818C0.391321 8.5838 0.391321 4.87064 2.78502 2.57269ZM9.67253 4.26974C8.25515 2.90905 5.97018 2.90905 4.55278 4.26974C3.1354 5.63044 3.1354 7.82401 4.55278 9.18476L14.0001 18.2542L23.4476 9.18476C24.865 7.82401 24.865 5.63044 23.4476 4.26974C22.0302 2.90905 19.7452 2.90905 18.3279 4.26974L14.0001 8.42432L9.67253 4.26974Z" fill="#888888"/>
+                  </svg>
                   <h3 class="price__subtitle">67 990₽</h3>
                   <div class="price__delivery">
                     <p class="price__text">Самовывоз в четверг, 1 сентября — <span>бесплатно</span></p>
@@ -272,7 +273,7 @@
                   </div>
                   <div class="price__button">Добавить в корзину</div>
                 </div>
-                <div class="iframe sidebar__top">
+                <div class="iframe sidebar__iframe">
                   <h3 class="iframe__ads">Реклама</h3>
                   <iframe class="iframe__commercial" src=""></iframe>
                   <iframe class="iframe__commercial" src=""></iframe>
@@ -283,7 +284,8 @@
       </div>
     </div>
 
-    <div class="footer container footer__container">
+    <div class="footer">
+      <div class="container footer__container">
         <div class="footer__inner">
           <div class="footer__contacts">
             <h5 class="footer__name">
@@ -297,6 +299,7 @@
           </div>
           <a class="footer__anchor" href="#logo">Навверх</a>
         </div>
+      </div>
     </div>
   <script src="js/main.js"></script>
 </body>
