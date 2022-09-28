@@ -1,6 +1,26 @@
 .header__inner {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+}
+
+.header__basket {
+  margin-right: 20px;
+}
+
+.header__number {
+  position: relative;
+  top: -15px;
+  right: 20px;
+  font-size: 10px;
+  line-height: 12px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #081658;
+  color: #081658;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
 }
 
 .header {
@@ -11,6 +31,11 @@
   font-size: 44px;
   font-weight: 700;
   line-height: 53px;
+  margin-right: auto;
+}
+
+.logo__img {
+  margin-right: 5px;
 }
 
 .container {
