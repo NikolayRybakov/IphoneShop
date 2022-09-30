@@ -2,7 +2,49 @@
   max-width: 880px;
 }
 
+@media (width: 1024px) {
+  .characteristics__inner {
+    max-width: 594px;
+  }
+}
 .characteristics__top {
+  padding-top: 30px;
+}
+
+.characteristics__color {
+  padding-top: 30px;
+}
+
+.characteristics__memory {
+  padding-top: 30px;
+}
+
+.characteristics__goods {
+  padding-top: 30px;
+}
+
+.characteristics__description {
+  padding-top: 30px;
+}
+
+.characteristics__table {
+  padding-top: 30px;
+}
+
+.characteristics__reviews {
+  padding-top: 65px;
+}
+
+.characteristics__form-review {
+  padding: 60px 0 0 170px;
+}
+
+@media (width: 1024px) {
+  .characteristics__form-review {
+    padding: 60px 0 0 0px;
+  }
+}
+.characteristics__sidebar {
   padding-top: 30px;
 }
 

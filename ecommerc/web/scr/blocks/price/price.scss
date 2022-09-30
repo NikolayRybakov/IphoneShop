@@ -4,6 +4,7 @@
 @import "__text/price__text";
 @import "__discount-info/price__discount-info";
 @import "__button/price__button";
+@import "__heart-link/price__heart-link";
 
 .price{
     border: 1px solid #EEEEEE;
@@ -12,3 +13,4 @@
     padding: 20px;
     max-width: 420px;
 }
+

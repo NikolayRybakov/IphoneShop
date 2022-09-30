@@ -13,6 +13,11 @@
   margin-bottom: 0;
 }
 
+@media (width: 1024px) {
+  .iframe__commercial {
+    width: 360px;
+  }
+}
 .iframe__ads {
   font-weight: 400;
   font-size: 14px;

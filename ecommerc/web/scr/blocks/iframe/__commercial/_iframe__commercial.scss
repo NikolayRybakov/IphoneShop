@@ -16,3 +16,11 @@
         margin-bottom: 0;
     }
 }
+
+@media (width: 1024px) {
+    .iframe{
+        &__commercial{
+            width: 360px;
+        }
+    }
+}
