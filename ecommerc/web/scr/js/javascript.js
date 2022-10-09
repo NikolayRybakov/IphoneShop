@@ -1,3 +1,3 @@
-'use strict'
+// 'use strict'
 
-alert("Hello man!");
+// alert("Hello man!");
