@@ -3,12 +3,12 @@
 // Дан следующий код, содержащий несколько переменных,необходимо вывести в консоль результат сложения чиселвнутри этих переменных 
 // (нельзя видоизменять указанные переменные):
 
-// let a = "100px";
-// let b = "323px";
+let a = "100px";
+let b = "323px";
 
-// let result = parseInt(a) + parseInt(b);
+let result = parseInt(a) + parseInt(b);
 
-// console.log(result);
+console.log(result);
 
 
 // Упр № 2.
@@ -16,26 +16,26 @@
 // Напишите код, который выведет в консоль максимальноечисло среди указанных: 10, -45, 102, 36, 12, 0, -1. 
 // Используйтеобъект Math для решения
 
-// let result = Math.max(10, -45, 102, 36, 12, 0, -1);
+let result = Math.max(10, -45, 102, 36, 12, 0, -1);
 
-// console.log(result);
+console.log(result);
 
 
 // Упр № 3.
 
-// let d = 0.111;
-// console.log(Math.ceil(d));
+let d = 0.111;
+console.log(Math.ceil(d));
 
-// let e = 45.333333;
-// console.log(+e.toFixed(1));
+let e = 45.333333;
+console.log(+e.toFixed(1));
 
-// let f = 3;
-// console.log(f ** 5);
+let f = 3;
+console.log(f ** 5);
 
-// let g = 400000000000000;
-// console.log(4e14);
+let g = 400000000000000;
+console.log(4e14);
 
-// let h = "1" == 1;
-// console.log(h);
+let h = "1" == 1;
+console.log(h);
 
 
