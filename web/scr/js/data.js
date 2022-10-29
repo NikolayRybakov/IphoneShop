@@ -9,7 +9,31 @@ let appleIphone13 = {
     weight: 173,
     priсe: 67990,
     "old price": 75990,
-    discount: "8%"
+    discount: "8%",
+    image: [
+        "../static/images/image-1.webp",
+        "../static/images/image-2.webp",
+        "../static/images/image-3.webp",
+        "../static/images/image-4.webp",
+        "../static/images/image-5.webp",
+    ],
+    color: [
+        "../static/images/color-1.webp",
+        "../static/images/color-2.webp",
+        "../static/images/color-3.webp",
+        "../static/images/color-4.webp",
+        "../static/images/color-5.webp",
+        "../static/images/color-6.webp"
+    ],
+    memory: [
+        "128 GB",
+        "256 GB",
+        "512 GB"
+    ],
+    delivery: [
+        {name: "Самовывоз", date: "в четверг, 1 сентября", cost: "бесплатно"},
+        {name: "Курьером", date: "в четверг, 1 сентября", cost: "бесплатно"}
+    ]
 }
 
 let review = {
