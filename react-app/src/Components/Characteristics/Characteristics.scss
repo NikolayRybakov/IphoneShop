@@ -1,0 +1,45 @@
+.characteristics{
+    display: flex;
+    justify-content: space-between;
+    &__color{
+        padding-top: 30px;
+    }
+    &__memory{
+        padding-top: 30px;
+    }
+    &__goods{
+        padding-top: 30px;
+    }
+    &__description{
+        padding-top: 30px;
+    }
+    &__table{
+        padding-top: 30px;
+    }
+    &__review{
+        padding-top: 30px;
+    }
+    &__form-review{
+        padding: 60px 0 0 170px;
+    }
+    &__inner{
+        max-width: 880px;
+    }
+    &__sidebar{
+        padding-top: 30px;
+    }
+    &__top{
+        padding-top: 30px; 
+     }
+}
+
+@media (width: 1024px) {
+    .characteristics{
+        &__form-review{
+            padding: 60px 0 0 0px;
+        }
+        &__inner{
+            max-width: 594px;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.nav{
+    padding: 27px 0 8px 0;
+    &__link{
+        font-weight: 400;
+        color: #008CF0;
+        text-decoration: none;
+    }
+    &__link:hover{
+        color: #F36223;
+    }
+}

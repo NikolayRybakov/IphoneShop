@@ -1,0 +1,61 @@
+.form-review {
+    &__button {
+        display: inline-block;
+        border-radius: 4px;
+        max-width: 177px;
+        max-height: 39px;
+        padding: 10px 20px;
+        background-color: #F36223;
+        text-align: center;
+        vertical-align: middle;
+        color: #FFFFFF;
+    }
+    &__input{
+        margin-bottom: 20px;
+    }
+    &__input-number{
+        width: 175px;
+        height: 49px;
+        margin-left: 36px;
+    }
+    &__input-number::placeholder{
+        color: #888888;
+        padding: 15px 0 0 20px;
+    }
+    &__input-text{
+        width: 494px;
+        height: 49px;
+    }
+    &__input-text::placeholder{
+        color: #888888;
+        padding: 15px 0 0 20px;
+    }
+    &__subtitle{
+        margin-bottom: 15px;
+    }
+    &__textarea{
+        max-width: 710px;
+        margin-bottom: 30px;
+    }
+    &__textarea-box{
+        width: 710px;
+        height: 190px;
+    }
+    &__textarea-box::placeholder{
+        color: #888888;
+        padding: 15px 0 0 20px;
+    }
+}
+
+@media (width: 1024px) {
+    .form-review{
+        &__input-text{
+            width: 378px;
+        }
+    }
+    .form-review{
+        &__textarea-box{
+            width: 594px;
+        }
+    }
+}
