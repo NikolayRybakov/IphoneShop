@@ -1,0 +1,8 @@
+.description__text + .description__text {
+  padding-top: 15px;
+}
+
+.description__inner {
+  max-width: 880px;
+  min-height: 390px;
+}

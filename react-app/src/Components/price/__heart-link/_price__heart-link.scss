@@ -1,0 +1,26 @@
+@import "_hover/price__heart-link_hover";
+@import "_active/price__heart-link_active";
+
+.price{
+    &__heart-link{
+        display: inline-block;
+        color: #888888;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 9px;
+        right: -218px;
+    }
+}
+
+@media (width: 1024px) {
+    .price{
+        &__heart-link{
+            content: "";
+            position: relative;
+            top: 9px;
+            right: -157px;
+        }
+    }
+}
+

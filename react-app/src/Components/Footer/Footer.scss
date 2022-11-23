@@ -1,27 +1,12 @@
+@import "__inner/footer__inner";
+@import "__contacts/footer__contacts";
+@import "__info/footer__info";
+@import "__name/footer__name";
+@import "__container/footer__container";
+@import "__anchor/footer__anchor";
+
 .footer{
     background: #F2F2F2;
     height: 110px;
     margin-top: 60px;
-    &__contacts{
-        padding: 30px 0;
-    }
-    &__container{
-        max-width: 1600px;
-        padding: 0 50px;
-    }
-    &__info{
-        font-size: 14px;
-        line-height: 17px;
-        font-weight: 400; 
-    }
-    &__inner{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    &__name{
-        font-size: 14px;
-        line-height: 17px;
-        font-weight: 700;
-    }
 }

@@ -1,14 +1,9 @@
+@import "__inner/sidebar__inner";
+@import "__iframe/sidebar__iframe";
+
 .sidebar{
     max-width: 460px;
     min-height: 315px;
-    &__iframe{
-        padding-top: 30px; 
-    }
-    &__inner{
-        display: flex;
-        flex-direction: column;
-        max-width: 420px;
-    }
 }
 
 @media (width: 1024px) {

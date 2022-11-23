@@ -1,27 +1,8 @@
+@import "__inner/header__inner";
+@import "__basket/header__basket";
+@import "__number/header__number";
+
 .header{
     padding-top: 18px;
-    &__inner{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    &__basket{
-        margin-right: 20px;
-    }
-    &__number{
-        position: relative;
-        top: -15px;
-        right: 20px;
-        font-size: 10px;
-        line-height: 12px;
-        width: 14px;
-        height: 14px;
-        border: 1px solid #081658;
-        color: #010203;
-        border-radius: 10px;
-        text-align: center;
-        font-weight: 700;
-    }
 }
-
 

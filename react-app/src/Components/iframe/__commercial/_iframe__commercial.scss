@@ -1,0 +1,26 @@
+.iframe{
+    &__commercial{
+        background: #F0F0F0;
+        border: 1px dashed #888888;
+        color: #888888;
+        font-size: 14px;
+        line-height: 17px;
+        width: 420px;
+        height: 300px;
+        margin-bottom: 15px;
+    }
+}
+
+.iframe{
+    &__commercial:last-child{
+        margin-bottom: 0;
+    }
+}
+
+@media (width: 1024px) {
+    .iframe{
+        &__commercial{
+            width: 360px;
+        }
+    }
+}

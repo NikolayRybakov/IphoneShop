@@ -1,0 +1,13 @@
+.characteristics{
+    &__inner{
+        max-width: 880px;
+    }
+}
+
+@media (width: 1024px) {
+    .characteristics{
+        &__inner{
+            max-width: 594px;
+        }
+    }
+}

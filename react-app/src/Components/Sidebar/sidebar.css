@@ -1,0 +1,20 @@
+.sidebar__inner {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+}
+
+.sidebar__iframe {
+  padding-top: 30px;
+}
+
+.sidebar {
+  max-width: 460px;
+  min-height: 315px;
+}
+
+@media (width: 1024px) {
+  .sidebar {
+    max-width: 360px;
+  }
+}

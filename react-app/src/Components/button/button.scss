@@ -1,0 +1,13 @@
+@import "_hover/button_hover";
+
+.button{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 20px;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    font-weight: 500;
+    min-width: 96px;
+    cursor: pointer;
+}

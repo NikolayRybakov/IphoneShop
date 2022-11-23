@@ -1,18 +1,3 @@
-.iphone{
-    &__inner{
-        display: flex;
-        justify-content: space-between;
-    }
-    &__img{
-        max-height: 400px;
-    }
-}
+@import "__inner/iphone__inner";
+@import "__img/iphone__img";
 
-@media (width: 1024px){
-    .iphone{
-        &__img{
-            max-width: 214px;
-            max-height: 272px;
-        }
-    }
-}

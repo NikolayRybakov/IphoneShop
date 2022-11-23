@@ -1,0 +1,32 @@
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__contacts {
+  padding: 30px 0;
+}
+
+.footer__info {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.footer__name {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 700;
+}
+
+.footer__container {
+  max-width: 1600px;
+  padding: 0 50px;
+}
+
+.footer {
+  background: #F2F2F2;
+  height: 110px;
+  margin-top: 60px;
+}

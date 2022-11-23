@@ -1,0 +1,15 @@
+.iphone__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iphone__img {
+  max-height: 400px;
+}
+
+@media (width: 1024px) {
+  .iphone__img {
+    max-width: 214px;
+    max-height: 272px;
+  }
+}

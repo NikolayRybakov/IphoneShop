@@ -1,45 +1,15 @@
+@import "__inner/characteristics__inner";
+@import "__top/characteristics__top";
+@import "__color/characteristics__color";
+@import "__memory/characteristics__memory";
+@import "__goods/characteristics__goods";
+@import "__description/characteristics__description";
+@import "__table/characteristics__table";
+@import "__reviews/characteristics__reviews";
+@import "__form-review/characteristics__form-review";
+@import "__sidebar/characteristics__sidebar";
+
 .characteristics{
     display: flex;
     justify-content: space-between;
-    &__color{
-        padding-top: 30px;
-    }
-    &__memory{
-        padding-top: 30px;
-    }
-    &__goods{
-        padding-top: 30px;
-    }
-    &__description{
-        padding-top: 30px;
-    }
-    &__table{
-        padding-top: 30px;
-    }
-    &__review{
-        padding-top: 30px;
-    }
-    &__form-review{
-        padding: 60px 0 0 170px;
-    }
-    &__inner{
-        max-width: 880px;
-    }
-    &__sidebar{
-        padding-top: 30px;
-    }
-    &__top{
-        padding-top: 30px; 
-     }
-}
-
-@media (width: 1024px) {
-    .characteristics{
-        &__form-review{
-            padding: 60px 0 0 0px;
-        }
-        &__inner{
-            max-width: 594px;
-        }
-    }
 }
