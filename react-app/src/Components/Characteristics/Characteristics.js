@@ -8,16 +8,21 @@ import Sidebar from "../sidebar/Sidebar";
 
 const Characteristics = () => {
     return (
-        <>
-            <Color />
-            <Memory />
-            <Goods />
-            <Description />
-            <Table />
-            <Reviews />
-            <Sidebar/>
-        </>
-
+        <div className="info">
+            <div className="container">
+                <div className="characteristics">
+                    <div className="characteristics__inner">
+                        <Color />
+                        <Memory />
+                        <Goods />
+                        <Description />
+                        <Table />
+                        <Reviews />
+                    </ div>
+                    <Sidebar />
+                </ div >
+            </ div>
+        </ div>
     )
 }
 

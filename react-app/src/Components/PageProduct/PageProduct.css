@@ -293,7 +293,7 @@
 .price__button::before {
   content: "";
   display: inline-block;
-  background-image: url("../../../static/images/basket.svg");
+  background-image: url("../../static/images/basket.svg");
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
@@ -360,10 +360,6 @@
   line-height: 17px;
   color: #888888;
   margin-bottom: 10px;
-}
-
-.padding-top {
-  padding-top: 40px;
 }
 
 .nav__link:hover {
@@ -617,4 +613,4 @@
 }
 .form-review__subtitle {
   margin-bottom: 15px;
-}
+}/*# sourceMappingURL=PageProduct.css.map */
