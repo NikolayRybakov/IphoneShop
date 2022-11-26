@@ -1,4 +1,4 @@
-import Color from "../color/Color";
+import Colors from "../colors/Colors";
 import Memory from "../memory/Memory";
 import Goods from "../goods/Goods";
 import Description from "../description/Description";
@@ -12,7 +12,7 @@ const Characteristics = () => {
             <div className="container">
                 <div className="characteristics">
                     <div className="characteristics__inner">
-                        <Color />
+                        <Colors />
                         <Memory />
                         <Goods />
                         <Description />

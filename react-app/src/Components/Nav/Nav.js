@@ -1,12 +1,16 @@
-const Nav = () => {
+const Nav = ({items}) => {
+
     return (
         <div className="nav">
             <div className="container">
                 <div className="nav__item">
-                    <a className="nav__link" href="/">Электроника &gt</a>
-                    <a className="nav__link" href="/">Смарфтоны и гаджеты &gt</a>
-                    <a className="nav__link" href="/">Мобильные телефоны &gt</a>
-                    <a className="nav__link" href="/">Apple</a>
+                    {items.map((link) => (
+                        <a className="nav__link" 
+                            key={link.id} 
+                            href="/">
+                            {link.name} 
+                        </a>
+                    ))}
                 </div>
             </div>
         </div>

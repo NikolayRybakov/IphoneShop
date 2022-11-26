@@ -1,3 +1,7 @@
 @import "__group/color__group";
 @import "__border/color__border";
 @import "__img/color__img";
+
+.color__border_red {
+    border: 5px solid red;
+}
