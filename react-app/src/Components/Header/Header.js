@@ -1,12 +1,12 @@
-import logo from ""
+import logo from "./../../static/images/apple-touch-icon.png";
 
 const Header = () => {
     return (
         <div className="header">
             <div className="container">
                 <div className="header__inner">
-                    <a className="logo" id="logo">
-                        <img className="logo__img" src="../static/images/apple-touch-icon.png" alt="logo" />
+                    <a className="logo" href={logo} id="logo">
+                        <img className="logo__img" src={logo} alt="logo" />
                     </a>
                     <h1 className="logo__title">IphoneShop</h1>
                     <svg className="header__heart" width="43" height="35" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
