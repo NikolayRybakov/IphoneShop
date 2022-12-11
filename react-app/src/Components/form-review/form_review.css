@@ -1,12 +1,13 @@
-.form-review__input {
-  margin-bottom: 20px;
-}
-
 .form-review__textarea {
   max-width: 710px;
   margin-bottom: 30px;
 }
 
+@media (width: 360px) {
+  .form-review__textarea {
+    margin-bottom: 20px;
+  }
+}
 .form-review__button {
   display: inline-block;
   border-radius: 4px;
@@ -19,6 +20,15 @@
   color: #FFFFFF;
 }
 
+@media (width: 360px) {
+  .form-review__button {
+    max-width: 150px;
+    max-height: 37px;
+    padding: 10px 15px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
 .form-review__textarea-box {
   width: 710px;
   height: 190px;
@@ -44,10 +54,15 @@
     width: 594px;
   }
 }
+@media (width: 360px) {
+  .form-review__textarea-box {
+    max-width: 335px;
+  }
+}
 .form-review__input-number {
   width: 175px;
   height: 49px;
-  margin-left: 36px;
+  margin: 0 0 30px 36px;
 }
 
 .form-review__input-number::-moz-placeholder {
@@ -65,6 +80,12 @@
   padding: 15px 0 0 20px;
 }
 
+@media (width: 360px) {
+  .form-review__input-number {
+    width: 335px;
+    margin: 0 0 10px 0;
+  }
+}
 .form-review__input-text {
   width: 494px;
   height: 49px;
@@ -88,6 +109,12 @@
 @media (width: 1024px) {
   .form-review__input-text {
     width: 378px;
+  }
+}
+@media (width: 360px) {
+  .form-review__input-text {
+    max-width: 335px;
+    margin-bottom: 10px;
   }
 }
 .form-review__subtitle {

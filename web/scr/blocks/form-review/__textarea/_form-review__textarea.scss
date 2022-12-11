@@ -4,3 +4,11 @@
         margin-bottom: 30px;
     }
 }
+
+@media (width: 360px) {
+    .form-review{
+        &__textarea{
+            margin-bottom: 20px;
+        }
+    }
+}

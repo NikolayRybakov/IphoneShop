@@ -6,3 +6,12 @@
         margin-right: auto;
     }
 }
+
+@media (width: 360px) {
+    .logo{
+        &__title{
+            font-size: 32px;
+            line-height: 39px;
+        }
+    }
+}

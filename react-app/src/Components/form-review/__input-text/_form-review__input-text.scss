@@ -13,9 +13,18 @@
 }
 
 @media (width: 1024px) {
-    .form-review{
-        &__input-text{
+    .form-review {
+        &__input-text {
             width: 378px;
+        }
+    }
+}
+
+@media (width: 360px) {
+    .form-review {
+        &__input-text {
+            max-width: 335px;
+            margin-bottom: 10px;
         }
     }
 }

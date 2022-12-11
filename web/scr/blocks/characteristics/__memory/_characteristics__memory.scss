@@ -3,3 +3,11 @@
         padding-top: 30px;
     }
 }
+
+@media (width: 360px) {
+    .characteristics{
+        &__memory{
+            padding-top: 20px;
+        }
+    }
+}

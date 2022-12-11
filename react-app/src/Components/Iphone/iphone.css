@@ -12,4 +12,10 @@
     max-width: 214px;
     max-height: 272px;
   }
+}
+@media (width: 360px) {
+  .iphone__img {
+    max-width: 214px;
+    max-height: 272px;
+  }
 }/*# sourceMappingURL=iphone.css.map */

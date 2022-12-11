@@ -1,2 +1,8 @@
 @import "__commercial/iframe__commercial";
 @import "__ads/iframe__ads";
+
+@media (width: 360px) {
+    .iframe{
+        display: none;
+    }
+}

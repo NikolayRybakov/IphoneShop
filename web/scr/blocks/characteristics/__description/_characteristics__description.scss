@@ -1,5 +1,13 @@
-.characteristics{
-    &__description{
+.characteristics {
+    &__description {
         padding-top: 30px;
+    }
+}
+
+@media (width: 360px) {
+    .characteristics {
+        &__description {
+            max-width: 338px;
+        }
     }
 }

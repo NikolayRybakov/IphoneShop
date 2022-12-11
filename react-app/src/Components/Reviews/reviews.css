@@ -5,6 +5,11 @@
   margin-bottom: 25px;
 }
 
+@media (width: 360px) {
+  .reviews__top {
+    margin-bottom: 20px;
+  }
+}
 .reviews__title {
   font-weight: 700;
   font-size: 24px;
@@ -12,10 +17,23 @@
   margin-right: 10px;
 }
 
+@media (width: 360px) {
+  .reviews__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
 .reviews__number {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
   color: #888888;
   margin-right: auto;
+}
+
+@media (width: 360px) {
+  .reviews__number {
+    font-size: 20px;
+    line-height: 24px;
+  }
 }/*# sourceMappingURL=reviews.css.map */

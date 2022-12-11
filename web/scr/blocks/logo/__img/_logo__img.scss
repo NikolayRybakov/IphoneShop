@@ -3,3 +3,12 @@
         margin-right: 5px;
     }
 }
+
+@media (width: 360px) {
+    .logo {
+        &__img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

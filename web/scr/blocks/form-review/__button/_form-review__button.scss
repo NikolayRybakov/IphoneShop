@@ -11,3 +11,15 @@
         color: #FFFFFF;
     }
 }
+
+@media (width: 360px) {
+    .form-review {
+        &__button {
+            max-width: 150px;
+            max-height: 37px;
+            padding: 10px 15px;
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+}

@@ -9,3 +9,12 @@
         padding-top: 10px;
     }
 }
+
+@media (width: 360px) {
+    .price{
+        &__text{
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+}

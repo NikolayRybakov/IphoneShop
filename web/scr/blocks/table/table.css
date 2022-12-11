@@ -24,4 +24,9 @@
   .table {
     display: none;
   }
+}
+@media (width: 360px) {
+  .table {
+    display: none;
+  }
 }/*# sourceMappingURL=table.css.map */

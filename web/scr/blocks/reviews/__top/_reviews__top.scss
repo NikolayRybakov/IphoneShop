@@ -6,3 +6,11 @@
         margin-bottom: 25px;
     }
 }
+
+@media (width: 360px) {
+    .reviews{
+        &__top{
+            margin-bottom: 20px;
+        }
+    }
+}

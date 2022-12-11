@@ -14,3 +14,11 @@
     max-width: 420px;
 }
 
+@media (width: 360px){
+    .price{
+        position: absolute;
+        top: 540px;
+        left: 5px;
+        max-width: 338px;
+    }
+}

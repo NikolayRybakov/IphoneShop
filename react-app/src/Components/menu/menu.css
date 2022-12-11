@@ -16,6 +16,12 @@
   margin-right: 10px;
 }
 
+@media (width: 360px) {
+  .menu__item {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
 .menu__list {
   list-style: none;
 }/*# sourceMappingURL=menu.css.map */

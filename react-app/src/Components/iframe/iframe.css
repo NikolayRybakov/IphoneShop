@@ -24,4 +24,10 @@
   line-height: 17px;
   color: #888888;
   margin-bottom: 10px;
+}
+
+@media (width: 360px) {
+  .iframe {
+    display: none;
+  }
 }/*# sourceMappingURL=iframe.css.map */

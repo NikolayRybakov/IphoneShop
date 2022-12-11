@@ -1,6 +1,8 @@
 @import "__inner/header__inner";
-@import "__basket/header__basket";
-@import "__number/header__number";
+@import "./__basket/header__basket";
+@import "./__heart/header__heart";
+@import "./__bakset-number/header__basket-number";
+@import "./__heart-number/header__heart-number";
 
 .header{
     padding-top: 18px;

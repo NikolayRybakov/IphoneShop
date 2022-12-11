@@ -3,3 +3,11 @@
         margin-bottom: 35px;
     }
 }
+
+@media (width: 360px) {
+    .price{
+        &__delivery{
+            margin-bottom: 15px;
+        }
+    }
+}

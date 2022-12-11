@@ -5,3 +5,11 @@
         align-items: center;
     }
 }
+
+@media (width: 360px) {
+    .footer{
+        &__inner{
+            display: block;
+        }
+    }
+}

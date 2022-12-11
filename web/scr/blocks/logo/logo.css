@@ -5,6 +5,19 @@
   margin-right: auto;
 }
 
+@media (width: 360px) {
+  .logo__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+}
 .logo__img {
   margin-right: 5px;
+}
+
+@media (width: 360px) {
+  .logo__img {
+    width: 30px;
+    height: 30px;
+  }
 }/*# sourceMappingURL=logo.css.map */

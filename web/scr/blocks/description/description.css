@@ -2,6 +2,12 @@
   padding-top: 15px;
 }
 
+@media (width: 360px) {
+  .description__text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
 .description__inner {
   max-width: 880px;
   min-height: 390px;

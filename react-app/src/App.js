@@ -1,9 +1,11 @@
-import PageProduct from "./Components/PageProduct/PageProduct";
 import './App.css';
+import PageProduct from './Components/PageProduct/PageProduct';
 
 function App() {
   return (
-    <PageProduct/>
+    <div classNameName="App">
+      <PageProduct/>
+    </div>
   );
 }
 

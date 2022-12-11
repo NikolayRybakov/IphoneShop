@@ -19,3 +19,11 @@
         }
     }
 }
+
+@media (width: 360px) {
+    .form-review {
+        &__textarea-box {
+            max-width: 335px; 
+        }
+    }
+}

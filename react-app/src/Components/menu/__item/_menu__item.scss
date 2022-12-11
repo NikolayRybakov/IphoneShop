@@ -12,3 +12,12 @@
         margin-right: 10px;
     }
 }
+
+@media (width: 360px) {
+    .menu{
+        &__item{
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+}

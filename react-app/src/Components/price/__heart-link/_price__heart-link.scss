@@ -24,3 +24,13 @@
     }
 }
 
+
+@media (width: 360px) {
+    .price{
+        &__heart-link{
+            right: -135px;
+        }
+    }
+}
+
+
