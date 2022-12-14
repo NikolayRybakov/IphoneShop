@@ -1,10 +1,10 @@
 import Color from "../color/Color";
-import Memory from "../memory/Memory";
-import Goods from "../goods/Goods";
-import Description from "../description/Description";
-import Table from "../table/Table";
-import Reviews from "../reviews/Reviews";
-import Sidebar from "../sidebar/Sidebar";
+import Memory from "../Memory/Memory";
+import Goods from "../Goods/Goods";
+import Description from "../Description/Description";
+import Table from "../Table/Table";
+import Reviews from "../Reviews/Reviews";
+import Sidebar from "../Sidebar/Sidebar";
 import FormReview from "../form-review/form-review";
 
 const Characteristics = () => {

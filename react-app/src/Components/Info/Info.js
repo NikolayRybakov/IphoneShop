@@ -1,4 +1,4 @@
-import Characteristics from "../characteristics/Characteristics";
+import Characteristics from "../Characteristics/Characteristics";
 
 const Info = () => {
     return (
