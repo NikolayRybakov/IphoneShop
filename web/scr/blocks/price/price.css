@@ -94,7 +94,7 @@
   right: -218px;
 }
 
-@media (width: 1024px) {
+@media (max-width: 1160px) {
   .price__heart-link {
     content: "";
     position: relative;

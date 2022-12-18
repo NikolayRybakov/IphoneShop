@@ -17,10 +17,10 @@
     }
 }
 
-@media (width: 1024px) {
+@media (max-width: 1160px) {
     .iframe{
         &__commercial{
-            width: 360px;
+            max-width: 360px;
         }
     }
 }

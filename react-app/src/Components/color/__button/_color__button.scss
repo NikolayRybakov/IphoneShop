@@ -1,0 +1,17 @@
+@import "_hover/color__button_hover";
+
+.color__button {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+@media (width: 360px) {
+    .color__button {
+        width: 60px;
+        height: 60px;
+    }
+}

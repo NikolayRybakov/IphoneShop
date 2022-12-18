@@ -7,8 +7,14 @@
 @import "__table/characteristics__table";
 @import "__sidebar/characteristics__sidebar";
 
-.characteristics{
+.characteristics {
     display: flex;
     justify-content: space-between;
     gap: 100px;
+}
+
+@media (max-width: 1160px) {
+    .characteristics {
+        gap: 40px;
+    }
 }

@@ -2,22 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
 }
 
-@media (width: 360px) {
-  .header__basket {
-    width: 25px;
-  }
+.header__block {
+  display: flex;
+  align-items: center;
 }
-@media (width: 360px) {
-  .header__heart {
-    width: 26px;
-  }
-}
-.header__basket-number {
+
+.header__basket::after {
+  content: "3";
   position: relative;
-  top: -15px;
-  right: 15px;
+  top: -25px;
+  right: 20px;
   font-size: 14px;
   line-height: 14px;
   width: 20px;
@@ -29,10 +26,22 @@
   text-align: center;
 }
 
-.header__heart-number {
+.header__basket {
   position: relative;
-  top: -14px;
-  right: 18px;
+  top: 0;
+  right: -18px;
+}
+
+@media (width: 360px) {
+  .header__basket {
+    width: 25px;
+  }
+}
+.header__heart::after {
+  content: "12";
+  position: relative;
+  top: -22px;
+  right: 20px;
   font-size: 14px;
   line-height: 14px;
   width: 26px;
@@ -44,15 +53,21 @@
   text-align: center;
 }
 
-.header {
-  padding-top: 18px;
+.header__heart {
+  position: relative;
+  top: 0px;
+  right: -18px;
 }
 
+@media (width: 360px) {
+  .header__heart {
+    width: 26px;
+  }
+}
 .logo__title {
   font-size: 44px;
   font-weight: 700;
   line-height: 53px;
-  margin-right: auto;
 }
 
 @media (width: 360px) {
@@ -62,7 +77,8 @@
   }
 }
 .logo__img {
-  margin-right: 5px;
+  width: 48px;
+  height: 48px;
 }
 
 @media (width: 360px) {
@@ -71,9 +87,13 @@
     height: 30px;
   }
 }
+.logo {
+  display: flex;
+}
+
 .container {
-  max-width: 1530px;
-  padding: 0 15px;
+  max-width: 1500px;
+  padding: 0 50px;
   margin: 0 auto;
 }
 
@@ -123,7 +143,10 @@
 }
 
 .iphone__img {
-  max-height: 400px;
+  max-height: 387px;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (width: 1024px) {
@@ -139,7 +162,7 @@
   }
 }
 .characteristics__inner {
-  max-width: 880px;
+  flex-grow: 1;
 }
 
 @media (width: 1024px) {
@@ -191,31 +214,6 @@
   padding-top: 30px;
 }
 
-.characteristics__reviews {
-  padding-top: 65px;
-}
-
-@media (width: 360px) {
-  .characteristics__reviews {
-    padding-top: 40px;
-    max-width: 335px;
-  }
-}
-.characteristics__form-review {
-  padding: 60px 0 60px 170px;
-}
-
-@media (width: 1024px) {
-  .characteristics__form-review {
-    padding: 60px 0 60px 0px;
-  }
-}
-@media (width: 360px) {
-  .characteristics__form-review {
-    padding: 40px 0 40px 0px;
-    max-width: 335px;
-  }
-}
 .characteristics__sidebar {
   padding-top: 30px;
 }
@@ -223,12 +221,12 @@
 .characteristics {
   display: flex;
   justify-content: space-between;
+  gap: 100px;
 }
 
 .color__group {
   display: flex;
   gap: 10px;
-  cursor: pointer;
 }
 
 @media (width: 360px) {
@@ -238,35 +236,34 @@
     gap: 8px;
   }
 }
-.color__border:hover {
+.color__button:hover {
   background: #F2F2F2;
 }
 
-.color__border {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+.color__button {
   width: 80px;
   height: 80px;
   border: 1px solid #888888;
   border-radius: 4px;
-  gap: 10px;
+  background: #FFFFFF;
+  cursor: pointer;
 }
 
 @media (width: 360px) {
-  .color__border {
+  .color__button {
     width: 60px;
     height: 60px;
   }
 }
-.color__img {
-  width: 31px;
+.color__img-button {
+  min-width: 31px;
   height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (width: 360px) {
-  .color__img {
+  .color__img-button {
     width: 25px;
     height: 50px;
   }
@@ -305,6 +302,7 @@
   border-radius: 4px;
   font-weight: 500;
   min-width: 96px;
+  background: #FFFFFF;
   cursor: pointer;
 }
 
@@ -344,8 +342,7 @@
 }
 
 .sidebar {
-  max-width: 460px;
-  min-height: 315px;
+  flex-shrink: 0;
 }
 
 @media (width: 1024px) {
@@ -423,7 +420,7 @@
 .price__button::before {
   display: flex;
   content: "";
-  background-image: url("./../../static/images/basket.svg");
+  background-image: url("../../../static/images/basket.svg");
   width: 20px;
   height: 19px;
   background-repeat: no-repeat;
@@ -511,18 +508,34 @@
     display: none;
   }
 }
-.nav__link:hover {
-  color: #F36223;
+.breadcrumps__list {
+  list-style: none;
 }
 
-.nav__link {
-  font-weight: 400;
+.breadcrumps__item {
+  display: inline;
+}
+
+.breadcrumps__item::after {
+  content: ">";
+}
+
+.breadcrumps__item:last-child::after {
+  content: "";
+}
+
+.breadcrumps__link {
   color: #008CF0;
+  font-weight: 400;
   text-decoration: none;
 }
 
-.nav {
-  padding: 27px 0 8px 0;
+.breadcrumps {
+  padding: 18px 0 10px 0;
+}
+
+.reviews__inner {
+  max-width: 880px;
 }
 
 .reviews__top {
@@ -564,6 +577,10 @@
     line-height: 24px;
   }
 }
+.reviews_padding-top {
+  padding-top: 50px;
+}
+
 .review__name {
   font-weight: 700;
   font-size: 20px;
@@ -660,6 +677,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 110px;
 }
 
 @media (width: 360px) {
@@ -683,54 +701,10 @@
   font-weight: 700;
 }
 
-.footer__container {
-  max-width: 1600px;
-  padding: 0 50px;
-}
-
-@media (width: 360px) {
-  .footer__container {
-    max-width: 340px;
-    padding: 0 5px 20px 5px;
-  }
-}
 .footer {
   background: #F2F2F2;
-  min-height: 110px;
 }
 
-.table__column {
-  border: 1px solid #888888;
-  text-align: center;
-  font-weight: 400;
-}
-
-.table__descr {
-  margin-bottom: 20px;
-}
-
-.table__inner {
-  display: grid;
-  grid-template-columns: repeat(8, auto);
-  grid-template-rows: 156px;
-}
-
-.table__title {
-  border-bottom: 1px solid #888888;
-  padding: 10px 5px;
-  margin-bottom: 10px;
-}
-
-@media (width: 1024px) {
-  .table {
-    display: none;
-  }
-}
-@media (width: 360px) {
-  .table {
-    display: none;
-  }
-}
 .form-review__textarea {
   max-width: 710px;
   margin-bottom: 30px;
@@ -854,30 +828,21 @@
   margin-bottom: 15px;
 }
 
-.content-text__block {
-  display: inline-block;
-  text-align: center;
+.form-review_padding {
+  padding: 60px 0 60px 170px;
 }
 
-.content-text__paragraph {
-  margin-bottom: 20px;
+@media (width: 1024px) {
+  .form-review_padding {
+    padding: 60px 0 60px 0px;
+  }
 }
-
-.content-text__link {
-  color: #008CF0;
-  text-decoration: none;
+@media (width: 360px) {
+  .form-review_padding {
+    padding: 40px 0 40px 0px;
+    max-width: 335px;
+  }
 }
-
-.content-text {
-  height: 1365px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 20px;
-}
-
 *,
 *::after,
 *::before {

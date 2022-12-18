@@ -1,0 +1,16 @@
+.color{
+    &__img-button {
+        min-width: 31px;
+        height: 60px;
+        object-fit: cover;
+    }
+}
+
+@media (width: 360px) {
+    .color{
+        &__img-button{
+            width: 25px;
+            height: 50px;
+        }
+    } 
+}

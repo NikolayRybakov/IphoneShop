@@ -1,3 +1,7 @@
+.reviews__inner {
+  max-width: 880px;
+}
+
 .reviews__top {
   display: flex;
   justify-content: space-between;
@@ -36,4 +40,7 @@
     font-size: 20px;
     line-height: 24px;
   }
-}/*# sourceMappingURL=Reviews.css.map */
+}
+.reviews_padding-top {
+  padding-top: 50px;
+}/*# sourceMappingURL=reviews.css.map */

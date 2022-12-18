@@ -12,9 +12,9 @@
     }
 }
 
-@media (width: 1024px) {
-    .form-review{
-        &__textarea-box{
+@media (max-width: 1160px) {
+    .form-review {
+        &__textarea-box {
             width: 594px;
         }
     }

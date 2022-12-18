@@ -59,4 +59,10 @@
   display: flex;
   justify-content: space-between;
   gap: 100px;
+}
+
+@media (max-width: 1160px) {
+  .characteristics {
+    gap: 40px;
+  }
 }/*# sourceMappingURL=characteristics.css.map */

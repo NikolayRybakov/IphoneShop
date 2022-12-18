@@ -10,5 +10,10 @@
 }
 .description__inner {
   max-width: 880px;
-  min-height: 390px;
+}
+
+@media (max-width: 1160px) {
+  .description__inner {
+    max-width: 594px;
+  }
 }/*# sourceMappingURL=description.css.map */

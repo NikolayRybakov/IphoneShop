@@ -13,9 +13,9 @@
   margin-bottom: 0;
 }
 
-@media (width: 1024px) {
+@media (max-width: 1160px) {
   .iframe__commercial {
-    width: 360px;
+    max-width: 360px;
   }
 }
 .iframe__ads {

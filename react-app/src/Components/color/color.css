@@ -1,7 +1,6 @@
 .color__group {
   display: flex;
   gap: 10px;
-  cursor: pointer;
 }
 
 @media (width: 360px) {
@@ -11,35 +10,34 @@
     gap: 8px;
   }
 }
-.color__border:hover {
+.color__button:hover {
   background: #F2F2F2;
 }
 
-.color__border {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+.color__button {
   width: 80px;
   height: 80px;
   border: 1px solid #888888;
   border-radius: 4px;
-  gap: 10px;
+  background: #FFFFFF;
+  cursor: pointer;
 }
 
 @media (width: 360px) {
-  .color__border {
+  .color__button {
     width: 60px;
     height: 60px;
   }
 }
-.color__img {
-  width: 31px;
+.color__img-button {
+  min-width: 31px;
   height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (width: 360px) {
-  .color__img {
+  .color__img-button {
     width: 25px;
     height: 50px;
   }

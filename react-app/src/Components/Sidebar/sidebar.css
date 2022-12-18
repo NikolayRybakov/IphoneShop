@@ -9,12 +9,11 @@
 }
 
 .sidebar {
-  max-width: 460px;
-  min-height: 315px;
+  flex-shrink: 0;
 }
 
 @media (width: 1024px) {
   .sidebar {
     max-width: 360px;
   }
-}/*# sourceMappingURL=Sidebar.css.map */
+}/*# sourceMappingURL=sidebar.css.map */

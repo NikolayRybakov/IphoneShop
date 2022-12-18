@@ -3,3 +3,11 @@
         max-width: 880px;
     }
 }
+
+@media (max-width: 1160px) {
+    .reviews {
+        &__inner {
+            max-width: 594px;
+        }
+    }
+}

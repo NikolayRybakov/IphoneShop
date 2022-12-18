@@ -1,0 +1,22 @@
+.form-review {
+    &_padding {
+        padding: 60px 0 60px 170px;
+    }
+}
+
+@media (width: 1024px) {
+    .form-review {
+        &_padding {
+            padding: 60px 0 60px 0px;
+        }
+    }
+}
+
+@media (width: 360px) {
+    .form-review {
+        &_padding {
+            padding: 40px 0 40px 0px;
+            max-width: 335px;
+        }
+    }
+}

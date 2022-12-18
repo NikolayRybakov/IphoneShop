@@ -2,7 +2,6 @@
   font-size: 44px;
   font-weight: 700;
   line-height: 53px;
-  margin-right: auto;
 }
 
 @media (width: 360px) {
@@ -12,7 +11,8 @@
   }
 }
 .logo__img {
-  margin-right: 5px;
+  width: 48px;
+  height: 48px;
 }
 
 @media (width: 360px) {
@@ -20,4 +20,7 @@
     width: 30px;
     height: 30px;
   }
-}/*# sourceMappingURL=Logo.css.map */
+}
+.logo {
+  display: flex;
+}/*# sourceMappingURL=logo.css.map */

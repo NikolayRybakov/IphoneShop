@@ -2,22 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
 }
 
-@media (width: 360px) {
-  .header__basket {
-    width: 25px;
-  }
+.header__block {
+  display: flex;
+  align-items: center;
 }
-@media (width: 360px) {
-  .header__heart {
-    width: 26px;
-  }
-}
-.header__basket-number {
+
+.header__basket::after {
+  content: "3";
   position: relative;
-  top: -15px;
-  right: 15px;
+  top: -25px;
+  right: 20px;
   font-size: 14px;
   line-height: 14px;
   width: 20px;
@@ -29,10 +26,22 @@
   text-align: center;
 }
 
-.header__heart-number {
+.header__basket {
   position: relative;
-  top: -14px;
-  right: 18px;
+  top: 0;
+  right: -18px;
+}
+
+@media (width: 360px) {
+  .header__basket {
+    width: 25px;
+  }
+}
+.header__heart::after {
+  content: "12";
+  position: relative;
+  top: -22px;
+  right: 20px;
   font-size: 14px;
   line-height: 14px;
   width: 26px;
@@ -44,6 +53,14 @@
   text-align: center;
 }
 
-.header {
-  padding-top: 18px;
-}/*# sourceMappingURL=Header.css.map */
+.header__heart {
+  position: relative;
+  top: 0px;
+  right: -18px;
+}
+
+@media (width: 360px) {
+  .header__heart {
+    width: 26px;
+  }
+}/*# sourceMappingURL=header.css.map */

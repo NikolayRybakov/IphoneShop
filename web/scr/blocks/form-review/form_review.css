@@ -49,7 +49,7 @@
   padding: 15px 0 0 20px;
 }
 
-@media (width: 1024px) {
+@media (max-width: 1160px) {
   .form-review__textarea-box {
     width: 594px;
   }
@@ -106,7 +106,7 @@
   padding: 15px 0 0 20px;
 }
 
-@media (width: 1024px) {
+@media (max-width: 1160px) {
   .form-review__input-text {
     width: 378px;
   }
@@ -125,7 +125,7 @@
   padding: 60px 0 60px 170px;
 }
 
-@media (width: 1024px) {
+@media (max-width: 1160px) {
   .form-review_padding {
     padding: 60px 0 60px 0px;
   }

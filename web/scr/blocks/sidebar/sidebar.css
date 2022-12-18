@@ -4,16 +4,20 @@
   max-width: 420px;
 }
 
+@media (max-width: 1160px) {
+  .sidebar__inner {
+    max-width: 360px;
+  }
+}
+@media (max-width: 980px) {
+  .sidebar__inner {
+    max-width: 300px;
+  }
+}
 .sidebar__iframe {
   padding-top: 30px;
 }
 
 .sidebar {
   flex-shrink: 0;
-}
-
-@media (width: 1024px) {
-  .sidebar {
-    max-width: 360px;
-  }
 }/*# sourceMappingURL=sidebar.css.map */
