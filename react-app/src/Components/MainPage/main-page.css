@@ -1,0 +1,23 @@
+.content-text__block {
+  display: inline-block;
+  text-align: center;
+}
+
+.content-text__paragraph {
+  margin-bottom: 20px;
+}
+
+.content-text__link {
+  color: #008CF0;
+  text-decoration: none;
+}
+
+.content-text {
+  height: 1365px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+}/*# sourceMappingURL=main-page.css.map */

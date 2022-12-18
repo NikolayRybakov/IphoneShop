@@ -1,0 +1,17 @@
+.breadcrumps {
+    &__item {
+        display: inline;
+    }
+}
+
+.breadcrumps {
+    &__item::after {
+        content: ">";
+    }
+}
+
+.breadcrumps {
+    &__item:last-child::after {
+        content: "";
+    }
+}

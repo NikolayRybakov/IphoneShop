@@ -1,4 +1,4 @@
-д<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -17,277 +17,304 @@
 </head>
 
 <body>
-    <div className="header">
-      <div className="container">
-        <div className="header__inner">
-          <a className="logo" id="logo">
-            <img className="logo__img" src="../static/images/apple-touch-icon.png" alt="logo">
-          </a>
-          <h1 className="logo__title">IphoneShop</h1>
-          <svg className="header__heart" width="43" height="35" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M2.78502 2.57269C5.17872 0.27474 9.04661 0.27474 11.4403 2.57269L14.0001 5.03017L16.56 2.57269C18.9537 0.27474 22.8216 0.27474 25.2154 2.57269C27.609 4.87064 27.609 8.5838 25.2154 10.8818L14.0001 21.6483L2.78502 10.8818C0.391321 8.5838 0.391321 4.87064 2.78502 2.57269ZM9.67253 4.26974C8.25515 2.90905 5.97018 2.90905 4.55278 4.26974C3.1354 5.63044 3.1354 7.82401 4.55278 9.18476L14.0001 18.2542L23.4476 9.18476C24.865 7.82401 24.865 5.63044 23.4476 4.26974C22.0302 2.90905 19.7452 2.90905 18.3279 4.26974L14.0001 8.42432L9.67253 4.26974Z" fill="#888888"/>
-          </svg>
-          <span className="header__heart-number">12</span>            
-          <svg className="header__basket" width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M0.720947 0.915039H8.01813H9.72605L10.061 2.5228L11.0138 7.09618H39.3531H41.8122L41.4081 9.42498L39.2618 21.7872L38.9716 23.4584H37.2068H14.4226L15.3062 27.7H37.2068V31.7H13.5983H11.8904L11.5554 30.0922L7.26297 9.4884L9.30586 9.09618L7.26297 9.4884L6.3102 4.91504H0.720947V0.915039ZM11.8471 11.0962L13.5893 19.4584H35.442L36.8937 11.0962H11.8471ZM19.2129 36.6778C19.2129 38.5186 17.6624 40.007 15.7449 40.007C13.8273 40.007 12.2769 38.5186 12.2769 36.6778C12.2769 34.837 13.8273 33.3876 15.7449 33.3876C17.6624 33.3876 19.2129 34.837 19.2129 36.6778ZM32.9162 40.007C34.8337 40.007 36.3841 38.5186 36.3841 36.6778C36.3841 34.837 34.8337 33.3876 32.9162 33.3876C30.9985 33.3876 29.4481 34.837 29.4481 36.6778C29.4481 38.5186 30.9985 40.007 32.9162 40.007Z" fill="#888888"/>
-          </svg>
-          <span className="header__basket-number">3</span>
-        </div>
+    <div class="header">
+      <div class="container">
+        <div class="header__inner">
+            <div class="logo">
+              <a class="logo__link" href="#" id="logo">
+                <img class="logo__img" src="../static/images/apple-touch-icon.png" alt="logo">
+              </a>
+              <h1 class="logo__title">IphoneShop</h1>
+            </div>
+            <div class="header__block">
+              <div class="header__heart">
+                <svg class="header__heart-svg" width="43" height="35" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M2.78502 2.57269C5.17872 0.27474 9.04661 0.27474 11.4403 2.57269L14.0001 5.03017L16.56 2.57269C18.9537 0.27474 22.8216 0.27474 25.2154 2.57269C27.609 4.87064 27.609 8.5838 25.2154 10.8818L14.0001 21.6483L2.78502 10.8818C0.391321 8.5838 0.391321 4.87064 2.78502 2.57269ZM9.67253 4.26974C8.25515 2.90905 5.97018 2.90905 4.55278 4.26974C3.1354 5.63044 3.1354 7.82401 4.55278 9.18476L14.0001 18.2542L23.4476 9.18476C24.865 7.82401 24.865 5.63044 23.4476 4.26974C22.0302 2.90905 19.7452 2.90905 18.3279 4.26974L14.0001 8.42432L9.67253 4.26974Z" fill="#888888"/>
+                </svg>
+              </div>
+              <div class="header__basket">
+                <svg class="header__basket-svg" width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.720947 0.915039H8.01813H9.72605L10.061 2.5228L11.0138 7.09618H39.3531H41.8122L41.4081 9.42498L39.2618 21.7872L38.9716 23.4584H37.2068H14.4226L15.3062 27.7H37.2068V31.7H13.5983H11.8904L11.5554 30.0922L7.26297 9.4884L9.30586 9.09618L7.26297 9.4884L6.3102 4.91504H0.720947V0.915039ZM11.8471 11.0962L13.5893 19.4584H35.442L36.8937 11.0962H11.8471ZM19.2129 36.6778C19.2129 38.5186 17.6624 40.007 15.7449 40.007C13.8273 40.007 12.2769 38.5186 12.2769 36.6778C12.2769 34.837 13.8273 33.3876 15.7449 33.3876C17.6624 33.3876 19.2129 34.837 19.2129 36.6778ZM32.9162 40.007C34.8337 40.007 36.3841 38.5186 36.3841 36.6778C36.3841 34.837 34.8337 33.3876 32.9162 33.3876C30.9985 33.3876 29.4481 34.837 29.4481 36.6778C29.4481 38.5186 30.9985 40.007 32.9162 40.007Z" fill="#888888"/>
+                </svg>
+              </div>  
+            </div>
+          </div>
       </div>
     </div>
-    <div className="nav">
-      <div className="container">
-        <div className="nav__item">
-          <a className="nav__link" href="/">Электроника ></a>
-          <a className="nav__link" href="/">Смарфтоны и гаджеты ></a>
-          <a className="nav__link" href="/">Мобильные телефоны ></a>
-          <a className="nav__link" href="/">Apple</a>
-        </div>
+
+    <div class="breadcrumps">
+      <div class="container">
+        <ul class="breadcrumps__list">
+          <li class="breadcrumps__item">
+            <a class="breadcrumps__link" href="/">Электроника </a>
+          </li>
+          <li class="breadcrumps__item">
+            <a class="breadcrumps__link" href="/">Смарфтоны и гаджеты </a>
+          </li>
+          <li class="breadcrumps__item">
+            <a class="breadcrumps__link" href="/">Мобильные телефоны </a>
+          </li>
+          <li class="breadcrumps__item">
+            <a class="breadcrumps__link" href="/">Apple</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <div className="iphone">
-      <div className="container">
-        <h2 className="title">Смартфон Apple iPhone 13</h2>
-        <div className="iphone__inner">
-          <img className="iphone__img" src="../static/images/image-1.webp" alt="Apple Iphone-13">
-          <img className="iphone__img" src="../static/images/image-2.webp" alt="Apple Iphone-13">
-          <img className="iphone__img" src="../static/images/image-3.webp" alt="Apple Iphone-13">
-          <img className="iphone__img" src="../static/images/image-4.webp" alt="Apple Iphone-13">
-          <img className="iphone__img" src="../static/images/image-5.webp" alt="Apple Iphone-13">
+
+    <div class="iphone">
+      <div class="container">
+        <h2 class="title">Смартфон Apple iPhone 13</h2>
+        <div class="iphone__inner">
+          <div class="iphone__item">
+            <img class="iphone__img" src="./../static/images/image-1.webp" alt="Apple Iphone-13">
+          </div>
+          <div class="iphone__item">
+            <img class="iphone__img" src="./../static/images/image-2.webp" alt="Apple Iphone-13">
+          </div>
+          <div class="iphone__item">
+            <img class="iphone__img" src="./../static/images/image-3.webp" alt="Apple Iphone-13">
+          </div>
+          <div class="iphone__item">
+            <img class="iphone__img" src="./../static/images/image-4.webp" alt="Apple Iphone-13">
+          </div>
+          <div class="iphone__item">
+            <img class="iphone__img" src="./../static/images/image-5.webp" alt="Apple Iphone-13">
+          </div>
         </div>
       </div>
     </div>
 
-    <div className="info">
-      <div className="container">
-        <div className="characteristics">
-          <div className="characteristics__inner">
+    <div class="info">
+      <div class="container">
+        
+        <div class="characteristics">
+          <div class="characteristics__inner">
     
-            <div className="color characteristics__color">
-                <h3 className="subtitle subtitle_margin-bottom">Цвет товара: синий</h3>
-                <div className="color__group">
-                  <div className="color__border">
-                    <img className="color__img " src="../static/images/color-1.webp" alt="characteristic-color__img">
-                  </div>
-                  <div className="color__border">
-                    <img className="color__img" src="../static/images/color-2.webp" alt="characteristic-color__img">
-                  </div>
-                  <div className="color__border">
-                    <img className="color__img" src="../static/images/color-3.webp" alt="characteristic-color__img">
-                  </div>
-                  <div className="color__border">
-                    <img className="color__img" src="../static/images/color-4.webp" alt="characteristic-color__img">
-                  </div>
-                  <div className="color__border">
-                    <img className="color__img" src="../static/images/color-5.webp" alt="characteristic-color__img">
-                  </div>
-                  <div className="color__border">
-                    <img className="color__img" src="../static/images/color-6.webp" alt="characteristic-color__img">
-                  </div>
+            <div class="color characteristics__color">
+                <h3 class="subtitle subtitle_margin-bottom">Цвет товара: синий</h3>
+                <div class="color__group">
+                  <button class="color__border">
+                    <img class="color__img " src="../static/images/color-1.webp" alt="characteristic-color__img">
+                  </button>
+                  <button class="color__border">
+                    <img class="color__img" src="../static/images/color-2.webp" alt="characteristic-color__img">
+                  </button>
+                  <button class="color__border">
+                    <img class="color__img" src="../static/images/color-3.webp" alt="characteristic-color__img">
+                  </button>
+                  <button class="color__border">
+                    <img class="color__img" src="../static/images/color-4.webp" alt="characteristic-color__img">
+                  </button>
+                  <button class="color__border">
+                    <img class="color__img" src="../static/images/color-5.webp" alt="characteristic-color__img">
+                  </button>
+                  <button class="color__border">
+                    <img class="color__img" src="../static/images/color-6.webp" alt="characteristic-color__img">
+                  </button>
                 </div>
             </div>
     
-            <div className="memory characteristics__memory">
-                <h3 className="subtitle subtitle_margin-bottom">Конфигурация памяти: 128 ГБ</h3>
-                <div className="memory__inner">
-                  <div className="button">128 ГБ</div>
-                  <div className="button">256 ГБ</div>
-                  <div className="button">512 ГБ</div>
+            <div class="memory characteristics__memory">
+                <h3 class="subtitle subtitle_margin-bottom">Конфигурация памяти: 128 ГБ</h3>
+                <div class="memory__inner">
+                  <div class="button">128 ГБ</div>
+                  <div class="button">256 ГБ</div>
+                  <div class="button">512 ГБ</div>
                 </div>
             </div>
     
-            <div className="goods characteristics__goods">
-                <h3 className="subtitle subtitle_margin-bottom">Характеристики товара</h3>
-                <div className="menu">
-                  <ul className="menu__list">
-                    <li className="menu__item">Экран: 6.1</li>
-                    <li className="menu__item">Встроенная память: 128 ГБ</li>
-                    <li className="menu__item">Операционная система: iOS 15</li>
-                    <li className="menu__item">Беспроводные интерфейсы: NFC, Bluetooth, Wi-Fi</li>
-                    <li className="menu__item">Процессор: <a className="menu__link" href="">Apple A15 Bionic</a></li>
-                    <li className="menu__item">Вес: 173 г</li>
+            <div class="goods characteristics__goods">
+                <h3 class="subtitle subtitle_margin-bottom">Характеристики товара</h3>
+                <div class="menu">
+                  <ul class="menu__list">
+                    <li class="menu__item">Экран: 6.1</li>
+                    <li class="menu__item">Встроенная память: 128 ГБ</li>
+                    <li class="menu__item">Операционная система: iOS 15</li>
+                    <li class="menu__item">Беспроводные интерфейсы: NFC, Bluetooth, Wi-Fi</li>
+                    <li class="menu__item">Процессор: <a class="menu__link" href="">Apple A15 Bionic</a></li>
+                    <li class="menu__item">Вес: 173 г</li>
                   </ul>
                 </div>
             </div>
     
-            <div className="description characteristics__description">
-                <h3 className="subtitle subtitle_margin-bottom">Описание</h3>
-                <div className="description__inner">
-                  <p className="description__text">Наша самая совершенная система двух камер. <br>
+            <div class="description characteristics__description">
+                <h3 class="subtitle subtitle_margin-bottom">Описание</h3>
+                <div class="description__inner">
+                  <p class="description__text">Наша самая совершенная система двух камер. <br>
                     Особый взгляд на прочность дисплея. <br>
                     Чип, с которым всё супербыстро. <br>
                     Аккумулятор держится заметно дольше. <br>
                     iPhone 13 - сильный мира всего.
                   </p>
-                  <p className="description__text">Мы разработали совершенно новую схему расположения и развернули объективы на
+                  <p class="description__text">Мы разработали совершенно новую схему расположения и развернули объективы на
                     45 градусов. Благодаря этому внутри корпуса поместилась наша лучшая система двух камер с увеличенной
                     матрицей широкоугольной камеры. Кроме того, мы освободили место для системы оптической стабилизации
                     изображения сдвигом матрицы. И повысили скорость работы матрицы на сверхширокоугольной камере.</p>
-                  <p className="description__text">Новая сверхширокоугольная камера видит больше деталей в тёмных областях
+                  <p class="description__text">Новая сверхширокоугольная камера видит больше деталей в тёмных областях
                     снимков. Новая широкоугольная камера улавливает на 47% больше света для более качественных фотографий и
                     видео. Новая оптическая стабилизация со сдвигом матрицы обеспечит чёткие кадры даже в неустойчивом
                     положении.</p>
-                  <p className="description__text">Режим «Киноэффект» автоматически добавляет великолепные эффекты перемещения
+                  <p class="description__text">Режим «Киноэффект» автоматически добавляет великолепные эффекты перемещения
                     фокуса и изменения резкости. Просто начните запись видео. Режим «Киноэффект» будет удерживать фокус на
                     объекте съёмки, создавая красивый эффект размытия вокруг него. Режим «Киноэффект» распознаёт, когда
                     нужно перевести фокус на другого человека или объект, который появился в кадре. Теперь ваши видео будут
                     смотреться как настоящее кино.</p>
                 </div>
             </div>
-
-            <div className="table characteristics__table">
-              <h3 className="subtitle subtitle_margin-bottom">Сравнение моделей</h3>
-              <div className="table__inner">
-                <div className="table__column">
-                  <h3 className="table__title">Модель</h3>
-                  <div className="table__descr">iPhone 11</div>
-                  <div className="table__descr">iPhone 12</div>
-                  <div className="table__descr">iPhone 13</div>
+<!-- 
+            <div class="table characteristics__table">
+              <h3 class="subtitle subtitle_margin-bottom">Сравнение моделей</h3>
+              <div class="table__inner">
+                <div class="table__column">
+                  <h3 class="table__title">Модель</h3>
+                  <div class="table__descr">iPhone 11</div>
+                  <div class="table__descr">iPhone 12</div>
+                  <div class="table__descr">iPhone 13</div>
                 </div>
-                <div className="table__column">
-                  <h3 className="table__title">Вес</h3>
-                  <div className="table__descr">194 грамма</div>
-                  <div className="table__descr">164 грамма</div>
-                  <div className="table__descr">174 грамма</div>
+                <div class="table__column">
+                  <h3 class="table__title">Вес</h3>
+                  <div class="table__descr">194 грамма</div>
+                  <div class="table__descr">164 грамма</div>
+                  <div class="table__descr">174 грамма</div>
                 </div>
-                <div className="table__column">
-                  <h3 className="table__title">Высота</h3>
-                  <div className="table__descr">150.9 мм</div>
-                  <div className="table__descr">146.7 мм</div>
-                  <div className="table__descr">146.7 мм</div>
+                <div class="table__column">
+                  <h3 class="table__title">Высота</h3>
+                  <div class="table__descr">150.9 мм</div>
+                  <div class="table__descr">146.7 мм</div>
+                  <div class="table__descr">146.7 мм</div>
                 </div>
-                <div className="table__column">
-                  <h3 className="table__title">Ширина</h3>
-                  <div className="table__descr">75.7 мм</div>
-                  <div className="table__descr">71.5 мм</div>
-                  <div className="table__descr">71.5 мм</div>
+                <div class="table__column">
+                  <h3 class="table__title">Ширина</h3>
+                  <div class="table__descr">75.7 мм</div>
+                  <div class="table__descr">71.5 мм</div>
+                  <div class="table__descr">71.5 мм</div>
                 </div>
-                <div className="table__column">
-                  <h3 className="table__title">Толщина</h3>
-                  <div className="table__descr">8.3 мм</div>
-                  <div className="table__descr">7.4 мм</div>
-                  <div className="table__descr">7.65 мм</div>
+                <div class="table__column">
+                  <h3 class="table__title">Толщина</h3>
+                  <div class="table__descr">8.3 мм</div>
+                  <div class="table__descr">7.4 мм</div>
+                  <div class="table__descr">7.65 мм</div>
                 </div>
-                <div className="table__column">
-                  <h3 className="table__title">Чип</h3>
-                  <div className="table__descr">A13 Bionic chip</div>
-                  <div className="table__descr">A14 Bionic chip</div>
-                  <div className="table__descr">A15 Bionic chip</div>
+                <div class="table__column">
+                  <h3 class="table__title">Чип</h3>
+                  <div class="table__descr">A13 Bionic chip</div>
+                  <div class="table__descr">A14 Bionic chip</div>
+                  <div class="table__descr">A15 Bionic chip</div>
                 </div>
-                <div className="table__column">
-                  <h3 className="table__title">Объём памяти</h3>
-                  <div className="table__descr">до 128 Гб</div>
-                  <div className="table__descr">до 256 Гб</div>
-                  <div className="table__descr">до 512 Гб</div>
+                <div class="table__column">
+                  <h3 class="table__title">Объём памяти</h3>
+                  <div class="table__descr">до 128 Гб</div>
+                  <div class="table__descr">до 256 Гб</div>
+                  <div class="table__descr">до 512 Гб</div>
                 </div>
-                <div className="table__column">
-                  <h3 className="table__title">Аккумулятор</h3>
-                  <div className="table__descr">до 17 часов</div>
-                  <div className="table__descr">до 19 часов</div>
-                  <div className="table__descr">до 19 часов</div>
+                <div class="table__column">
+                  <h3 class="table__title">Аккумулятор</h3>
+                  <div class="table__descr">до 17 часов</div>
+                  <div class="table__descr">до 19 часов</div>
+                  <div class="table__descr">до 19 часов</div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
-            <div className="reviews characteristics__reviews">
-              <div className="reviews__inner">
-                <div className="reviews__top">
-                  <h2 className="reviews__title">
+            <div class="reviews characteristics__reviews">
+              <div class="reviews__inner">
+                <div class="reviews__top">
+                  <h2 class="reviews__title">
                     Отзывы
                   </h2>
-                  <div className="reviews__number">
+                  <div class="reviews__number">
                     425
                   </div>
                 </div>
             
-                <div className="review characteristics__review">
-                  <div className="review__photo">
-                    <img className="review__img" src="../static/images/review-1.jpg" alt="photo">
+                <div class="review characteristics__review">
+                  <div class="review__photo">
+                    <img class="review__img" src="../static/images/review-1.jpg" alt="photo">
                   </div>
-                  <div className="review__content">
-                    <h4 className="review__name">Марк Г.</h4>
-                    <div className="review__stars">
-                      <img className="review__star" src="../static/images/star-gold.svg" alt="star">
-                      <img className="review__star" src="../static/images/star-gold.svg" alt="star">
-                      <img className="review__star" src="../static/images/star-gold.svg" alt="star">
-                      <img className="review__star" src="../static/images/star-gold.svg" alt="star">
-                      <img className="review__star" src="../static/images/star-gold.svg" alt="star">
+                  <div class="review__content">
+                    <h4 class="review__name">Марк Г.</h4>
+                    <div class="review__stars">
+                      <img class="review__star" src="../static/images/star-gold.svg" alt="star">
+                      <img class="review__star" src="../static/images/star-gold.svg" alt="star">
+                      <img class="review__star" src="../static/images/star-gold.svg" alt="star">
+                      <img class="review__star" src="../static/images/star-gold.svg" alt="star">
+                      <img class="review__star" src="../static/images/star-gold.svg" alt="star">
                     </div>
-                      <p className="review__text"><span>Опыт использования:</span> менее месяца</p>
-                      <p className="review__text"><span>Достоинства:</span> 
+                      <p class="review__text"><span>Опыт использования:</span> менее месяца</p>
+                      <p class="review__text"><span>Достоинства:</span> 
                         это мой первый айфон после после огромного количества телефонов на андроиде.
                         всё плавно, чётко и красиво. довольно шустрое устройство. камера весьма неплохая,
                         ширик тоже на высоте.</p>
-                      <p className="review__text"><span>Недостатки:</span> 
+                      <p class="review__text"><span>Недостатки:</span> 
                         к самому устройству мало имеет отношение, но перенос данных с андроида - адская
                         вещь) а если нужно переносить фото с компа, то это только через itunes,
                         который урезает качество фотографий исходное</p>
                   </div>
                 </div>
 
-                <div className="line"></div>
+                <div class="line"></div>
 
-                <div className="review">
-                  <div className="review__photo">
-                    <img className="review__img" src="../static/images/review-2.jpg" alt="photo">
+                <div class="review">
+                  <div class="review__photo">
+                    <img class="review__img" src="../static/images/review-2.jpg" alt="photo">
                   </div>
-                  <div className="review__content">
-                    <h4 className="review__name">Валерий Коваленко</h4>
-                    <div className="review__stars">
-                      <img className="review__star" src="../static/images/star-gold.svg" alt="star">
-                      <img className="review__star" src="../static/images/star-gold.svg" alt="star">
-                      <img className="review__star" src="../static/images/star-gold.svg" alt="star">
-                      <img className="review__star" src="../static/images/star-gold.svg" alt="star">
-                      <img className="review__star" src="../static/images/star-grey.svg" alt="star">
+                  <div class="review__content">
+                    <h4 class="review__name">Валерий Коваленко</h4>
+                    <div class="review__stars">
+                      <img class="review__star" src="../static/images/star-gold.svg" alt="star">
+                      <img class="review__star" src="../static/images/star-gold.svg" alt="star">
+                      <img class="review__star" src="../static/images/star-gold.svg" alt="star">
+                      <img class="review__star" src="../static/images/star-gold.svg" alt="star">
+                      <img class="review__star" src="../static/images/star-grey.svg" alt="star">
                     </div>
-                    <p className="review__text"><span>Опыт использования:</span>менее месяца</p>
-                    <p className="review__text"><span>Достоинства:</span> 
+                    <p class="review__text"><span>Опыт использования:</span>менее месяца</p>
+                    <p class="review__text"><span>Достоинства:</span> 
                       OLED экран, Дизайн, Система камер, Шустрый А15, Заряд держит долго</p>
-                    <p className="review__text"><span>Недостатки:</span> Плохая ремонтопригодность</p>
+                    <p class="review__text"><span>Недостатки:</span> Плохая ремонтопригодность</p>
                   </div>
                 </div>
 
-                <div className="form-review characteristics__form-review">
-                  <form className="form-review__info" action="">
-                    <h3 className="subtitle form-review__subtitle">
+                <div class="form-review characteristics__form-review">
+                  <form class="form-review__info" action="">
+                    <h3 class="subtitle form-review__subtitle">
                       Добавить свой отзыв
                     </h3>  
-                      <div className="form-review__input">
-                        <input className="form-review__input-text" type="text" name="name" placeholder="Имя и фамилия">
-                        <input className="form-review__input-number" type="number" name="raiting" min="1" max="5" placeholder="Оценка">
+                      <div class="form-review__input">
+                        <input class="form-review__input-text" type="text" name="name" placeholder="Имя и фамилия">
+                        <input class="form-review__input-number" type="number" name="raiting" min="1" max="5" placeholder="Оценка">
                       </div>
-                      <!-- <div className="form-error">
-                        <p className="form-error__text">Вы забыли указать имя и фамилию</p>
+                      <!-- <div class="form-error">
+                        <p class="form-error__text">Вы забыли указать имя и фамилию</p>
                       </div> -->
-                      <div className="form-review__textarea">
-                        <textarea className="form-review__textarea-box" placeholder="Текст отзыва"></textarea>
+                      <div class="form-review__textarea">
+                        <textarea class="form-review__textarea-box" placeholder="Текст отзыва"></textarea>
                       </div>
-                      <div className="form-review__button">Отправить отзыв</div>
+                      <div class="form-review__button">Отправить отзыв</div>
                   </form>
                 </div>
               </div>
             </div>
           </div>
     
-          <div className="sidebar characteristics__sidebar">
-              <div className="sidebar__inner">
-                <div className="price">
-                  <span className="price__discount">75 990₽</span>
-                  <span className="price__discount-info">-8%</span>
-                  <svg className="price__heart-link" width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="sidebar characteristics__sidebar">
+              <div class="sidebar__inner">
+                <div class="price">
+                  <span class="price__discount">75 990₽</span>
+                  <span class="price__discount-info">-8%</span>
+                  <svg class="price__heart-link" width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M2.78502 2.57269C5.17872 0.27474 9.04661 0.27474 11.4403 2.57269L14.0001 5.03017L16.56 2.57269C18.9537 0.27474 22.8216 0.27474 25.2154 2.57269C27.609 4.87064 27.609 8.5838 25.2154 10.8818L14.0001 21.6483L2.78502 10.8818C0.391321 8.5838 0.391321 4.87064 2.78502 2.57269ZM9.67253 4.26974C8.25515 2.90905 5.97018 2.90905 4.55278 4.26974C3.1354 5.63044 3.1354 7.82401 4.55278 9.18476L14.0001 18.2542L23.4476 9.18476C24.865 7.82401 24.865 5.63044 23.4476 4.26974C22.0302 2.90905 19.7452 2.90905 18.3279 4.26974L14.0001 8.42432L9.67253 4.26974Z" fill="#888888"/>
                   </svg>
-                  <h3 className="price__subtitle">67 990₽</h3>
-                  <div className="price__delivery">
-                    <p className="price__text">Самовывоз в четверг, 1 сентября — <span>бесплатно</span></p>
-                    <p className="price__text">Курьером в четверг, 1 сентября — <span>бесплатно</span></p>
+                  <h3 class="price__subtitle">67 990₽</h3>
+                  <div class="price__delivery">
+                    <p class="price__text">Самовывоз в четверг, 1 сентября — <span>бесплатно</span></p>
+                    <p class="price__text">Курьером в четверг, 1 сентября — <span>бесплатно</span></p>
                   </div>
-                  <div className="price__button">Добавить в корзину</div>
+                  <div class="price__button">Добавить в корзину</div>
                 </div>
-                <div className="iframe sidebar__iframe">
-                  <h3 className="iframe__ads">Реклама</h3>
-                  <iframe className="iframe__commercial" src=""></iframe>
-                  <iframe className="iframe__commercial" src=""></iframe>
+                <div class="iframe sidebar__iframe">
+                  <h3 class="iframe__ads">Реклама</h3>
+                  <iframe class="iframe__commercial" src=""></iframe>
+                  <iframe class="iframe__commercial" src=""></iframe>
                 </div>
               </div>
           </div>
@@ -295,20 +322,20 @@
       </div>
     </div>
 
-    <div className="footer">
-      <div className="container footer__container">
-        <div className="footer__inner">
-          <div className="footer__contacts">
-            <h5 className="footer__name">
+    <div class="footer">
+      <div class="container footer__container">
+        <div class="footer__inner">
+          <div class="footer__contacts">
+            <h5 class="footer__name">
               © ООО «IphoneShop», 2018-2022
             </h5>
-            <p className="footer__info">
+            <p class="footer__info">
               Для уточнения информации звоните по номеру <a href="tel:+79000000000">+7 900 000 0000</a>
             </p>
-            <p className="footer__info">Предложения по сотрудничеству отправляйте на почту <a
+            <p class="footer__info">Предложения по сотрудничеству отправляйте на почту <a
               href="mailto:partner@mymarket.com">partner@mymarket.com</a></p>
           </div>
-          <a className="footer__anchor" href="#logo">Навверх</a>
+          <a class="footer__anchor" href="#logo">Навверх</a>
         </div>
       </div>
     </div>

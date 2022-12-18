@@ -11,7 +11,7 @@ const Color = () => {
             <h3 className="subtitle subtitle_margin-bottom">Цвет товара: синий</h3>
             <div className="color__group">
                 <div className="color__border">
-                    <img className="color__img " src={color1} alt="characteristic-color__img" />
+                    <img className="color__img" src={color1} alt="characteristic-color__img" />
                 </div>
                 <div className="color__border">
                     <img className="color__img" src={color2} alt="characteristic-color__img" />

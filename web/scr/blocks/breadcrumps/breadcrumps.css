@@ -1,0 +1,25 @@
+.breadcrumps__list {
+  list-style: none;
+}
+
+.breadcrumps__item {
+  display: inline;
+}
+
+.breadcrumps__item::after {
+  content: ">";
+}
+
+.breadcrumps__item:last-child::after {
+  content: "";
+}
+
+.breadcrumps__link {
+  color: #008CF0;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.breadcrumps {
+  padding: 25px 0 10px 0;
+}/*# sourceMappingURL=breadcrumps.css.map */

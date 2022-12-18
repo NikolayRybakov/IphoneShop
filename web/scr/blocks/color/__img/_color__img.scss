@@ -1,7 +1,8 @@
 .color{
-    &__img{
-        width: 31px;
+    &__img {
+        min-width: 31px;
         height: 60px;
+        object-fit: cover;
     }
 }
 

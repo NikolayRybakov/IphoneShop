@@ -423,7 +423,7 @@
 .price__button::before {
   display: flex;
   content: "";
-  background-image: url("../../../static/images/basket.svg");
+  background-image: url("./../../static/images/basket.svg");
   width: 20px;
   height: 19px;
   background-repeat: no-repeat;
@@ -852,6 +852,30 @@
 }
 .form-review__subtitle {
   margin-bottom: 15px;
+}
+
+.content-text__block {
+  display: inline-block;
+  text-align: center;
+}
+
+.content-text__paragraph {
+  margin-bottom: 20px;
+}
+
+.content-text__link {
+  color: #008CF0;
+  text-decoration: none;
+}
+
+.content-text {
+  height: 1365px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
 }
 
 *,
