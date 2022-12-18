@@ -119,4 +119,20 @@
 }
 .form-review__subtitle {
   margin-bottom: 15px;
+}
+
+.form-review_padding {
+  padding: 60px 0 60px 170px;
+}
+
+@media (width: 1024px) {
+  .form-review_padding {
+    padding: 60px 0 60px 0px;
+  }
+}
+@media (width: 360px) {
+  .form-review_padding {
+    padding: 40px 0 40px 0px;
+    max-width: 335px;
+  }
 }/*# sourceMappingURL=form_review.css.map */

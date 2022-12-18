@@ -2,8 +2,7 @@
 @import "__iframe/sidebar__iframe";
 
 .sidebar{
-    max-width: 460px;
-    min-height: 315px;
+    flex-shrink: 0;
 }
 
 @media (width: 1024px) {

@@ -5,11 +5,10 @@
 @import "__goods/characteristics__goods";
 @import "__description/characteristics__description";
 @import "__table/characteristics__table";
-@import "__reviews/characteristics__reviews";
-@import "__form-review/characteristics__form-review";
 @import "__sidebar/characteristics__sidebar";
 
 .characteristics{
     display: flex;
     justify-content: space-between;
+    gap: 100px;
 }
