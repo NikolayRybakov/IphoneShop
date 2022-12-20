@@ -5,3 +5,23 @@
         margin: 10px 0 15px;
     }
 }
+
+@media (max-width: 980px) {
+    .price{
+        &__subtitle{
+            font-size: 24px;
+            line-height: 27px;
+            margin: 10px 0 10px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .price{
+        &__subtitle{
+            font-size: 32px;
+            line-height: 39px;
+            margin: 10px 0 15px;
+        }
+    }
+}

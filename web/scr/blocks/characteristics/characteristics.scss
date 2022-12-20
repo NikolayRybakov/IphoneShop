@@ -18,3 +18,17 @@
         gap: 40px;
     }
 }
+
+@media (max-width: 980px) {
+    .characteristics {
+        gap: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .characteristics {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0; 
+    }
+}

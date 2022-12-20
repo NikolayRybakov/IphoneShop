@@ -11,3 +11,11 @@
         }
     }
 }
+
+@media (max-width: 980px) {
+    .reviews {
+        &__inner {
+            max-width: 480px;
+        }
+    }
+}

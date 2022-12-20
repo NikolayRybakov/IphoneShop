@@ -1,0 +1,23 @@
+@media (max-width: 1160px) {
+    .form-review {
+        &__input {
+            width: 594px;
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .form-review {
+        &__input {
+            width: 480px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .form-review {
+        &__input {
+            width: 335px;
+        }
+    }
+}

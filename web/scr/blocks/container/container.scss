@@ -10,9 +10,8 @@
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 540px) {
     .container{
-        max-width: 380px;
         padding: 0 10px;
     }
 }

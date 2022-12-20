@@ -5,3 +5,9 @@
 .breadcrumps {
     padding: 18px 0 10px 0;
 }
+
+@media (max-width: 425px) {
+    .breadcrumps {
+        padding: 12px 0 10px 0;
+    }
+}

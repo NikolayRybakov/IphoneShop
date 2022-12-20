@@ -20,10 +20,18 @@
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 980px) {
     .form-review {
         &__textarea-box {
-            max-width: 335px; 
+            width: 480px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .form-review {
+        &__textarea-box {
+            width: 335px; 
         }
     }
 }

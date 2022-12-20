@@ -17,8 +17,6 @@
   right: 20px;
   font-size: 14px;
   line-height: 14px;
-  width: 20px;
-  height: 20px;
   background: #F36223;
   padding: 3px 5px;
   color: #ffffff;
@@ -32,9 +30,22 @@
   right: -18px;
 }
 
-@media (width: 360px) {
+@media (max-width: 540px) {
   .header__basket {
-    width: 25px;
+    position: relative;
+    top: 0;
+    right: -8px;
+  }
+}
+@media (max-width: 540px) {
+  .header__basket::after {
+    content: "";
+    position: relative;
+    top: -19px;
+    right: 8px;
+    font-size: 0;
+    line-height: 0;
+    padding: 5px 5px;
   }
 }
 .header__heart::after {
@@ -44,8 +55,6 @@
   right: 20px;
   font-size: 14px;
   line-height: 14px;
-  width: 26px;
-  height: 20px;
   background: #F36223;
   padding: 3px 5px;
   color: #ffffff;
@@ -59,8 +68,33 @@
   right: -18px;
 }
 
-@media (width: 360px) {
+@media (max-width: 540px) {
   .header__heart {
+    position: relative;
+    top: 0px;
+    right: -5px;
+  }
+}
+@media (max-width: 540px) {
+  .header__heart::after {
+    content: "";
+    position: relative;
+    top: -18px;
+    right: 8px;
+    font-size: 0;
+    line-height: 0;
+    padding: 5px 5px;
+  }
+}
+@media (max-width: 540px) {
+  .header__heart-svg {
     width: 26px;
+    height: 21px;
+  }
+}
+@media (max-width: 540px) {
+  .header__basket-svg {
+    width: 25px;
+    height: 24px;
   }
 }/*# sourceMappingURL=header.css.map */

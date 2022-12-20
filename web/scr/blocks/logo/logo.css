@@ -4,7 +4,7 @@
   line-height: 53px;
 }
 
-@media (width: 360px) {
+@media (max-width: 425px) {
   .logo__title {
     font-size: 32px;
     line-height: 39px;
@@ -15,7 +15,7 @@
   height: 48px;
 }
 
-@media (width: 360px) {
+@media (max-width: 425px) {
   .logo__img {
     width: 30px;
     height: 30px;

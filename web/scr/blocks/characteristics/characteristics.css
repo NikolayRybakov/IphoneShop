@@ -15,38 +15,18 @@
   padding-top: 30px;
 }
 
-@media (width: 360px) {
-  .characteristics__color {
-    padding-top: 350px;
-  }
-}
 .characteristics__memory {
   padding-top: 30px;
 }
 
-@media (width: 360px) {
-  .characteristics__memory {
-    padding-top: 20px;
-  }
-}
 .characteristics__goods {
   padding-top: 30px;
 }
 
-@media (width: 360px) {
-  .characteristics__goods {
-    padding-top: 20px;
-  }
-}
 .characteristics__description {
   padding-top: 30px;
 }
 
-@media (width: 360px) {
-  .characteristics__description {
-    max-width: 338px;
-  }
-}
 .characteristics__table {
   padding-top: 30px;
 }
@@ -64,5 +44,17 @@
 @media (max-width: 1160px) {
   .characteristics {
     gap: 40px;
+  }
+}
+@media (max-width: 980px) {
+  .characteristics {
+    gap: 28px;
+  }
+}
+@media (max-width: 768px) {
+  .characteristics {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0;
   }
 }/*# sourceMappingURL=characteristics.css.map */

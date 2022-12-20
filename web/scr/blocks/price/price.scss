@@ -14,11 +14,9 @@
     max-width: 420px;
 }
 
-@media (width: 360px){
+@media (max-width: 980px) {
     .price{
-        position: absolute;
-        top: 540px;
-        left: 5px;
-        max-width: 338px;
+        padding: 15px;
+        max-width: 300px;
     }
 }

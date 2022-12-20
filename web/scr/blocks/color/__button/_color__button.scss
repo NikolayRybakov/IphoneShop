@@ -9,7 +9,7 @@
     cursor: pointer;
 }
 
-@media (width: 360px) {
+@media (max-width: 980px) {
     .color__button {
         width: 60px;
         height: 60px;

@@ -6,7 +6,7 @@
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 425px) {
     .logo{
         &__title{
             font-size: 32px;

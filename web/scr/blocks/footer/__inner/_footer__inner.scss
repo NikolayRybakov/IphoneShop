@@ -7,10 +7,13 @@
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 768px) {
     .footer{
         &__inner{
-            display: block;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
         }
     }
 }

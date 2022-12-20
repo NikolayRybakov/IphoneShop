@@ -11,14 +11,22 @@
     gap: 30px;
 }
 
-@media (width: 1160px) {
+@media (max-width: 980px) {
     .review{
         display: flex;
         gap: 20px;
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 540px) {
+    .review{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 360px) {
     .review{
         gap: 15px;
     }

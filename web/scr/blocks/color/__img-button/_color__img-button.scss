@@ -1,16 +1,17 @@
 .color{
     &__img-button {
-        min-width: 31px;
+        max-width: 100%;
         height: 60px;
         object-fit: cover;
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 980px) {
     .color{
         &__img-button{
-            width: 25px;
+            max-width: 100%;
             height: 50px;
+            vertical-align: middle;
         }
     } 
 }

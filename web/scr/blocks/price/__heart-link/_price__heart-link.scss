@@ -24,13 +24,24 @@
     }
 }
 
-
-@media (width: 360px) {
+@media (max-width: 980px) {
     .price{
         &__heart-link{
-            right: -135px;
+            content: "";
+            position: relative;
+            top: 9px;
+            right: -112px;
         }
     }
 }
 
-
+@media (max-width: 768px) {
+    .price{
+        &__heart-link{
+            content: "";
+            position: relative;
+            top: 9px;
+            right: -98px;
+        }
+    }
+}

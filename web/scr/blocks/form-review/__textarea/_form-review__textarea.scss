@@ -5,9 +5,27 @@
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 1160px) {
     .form-review{
         &__textarea{
+            width: 594px;
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .form-review{
+        &__textarea{
+            width: 480px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .form-review{
+        &__textarea{
+            width: 335px;
             margin-bottom: 20px;
         }
     }

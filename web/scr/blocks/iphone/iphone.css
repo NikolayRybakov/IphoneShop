@@ -10,9 +10,8 @@
      object-fit: cover;
 }
 
-@media (width: 360px) {
-  .iphone__img {
-    max-width: 214px;
-    max-height: 272px;
+@media (max-width: 540px) {
+  .iphone_disabled {
+    display: none;
   }
 }/*# sourceMappingURL=iphone.css.map */
