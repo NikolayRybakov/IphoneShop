@@ -1,5 +1,3 @@
-@import "_hover/color__button_hover";
-
 .color__button {
     width: 80px;
     height: 80px;
@@ -15,3 +13,6 @@
         height: 60px;
     }
 }
+
+@import "_hover/color__button_hover";
+@import "_active/color__button_active";

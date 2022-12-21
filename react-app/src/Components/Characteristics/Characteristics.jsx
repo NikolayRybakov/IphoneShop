@@ -1,4 +1,4 @@
-import Color from "../color/Color";
+import Colors from "./../colors/Colors";
 import Description from "../Description/Description";
 import Goods from "../Goods/Goods";
 import Memory from "../Memory/Memory";
@@ -8,7 +8,7 @@ const Characteristics = () => {
     return (
         <div className="characteristics">
             <div className="characteristics__inner">
-                <Color />
+                <Colors />
                 <Memory />
                 <Goods />
                 <Description />

@@ -1,0 +1,1 @@
+.colors__group{display:flex;gap:10px}@media(max-width: 540px){.colors__group{max-width:100%;flex-wrap:wrap;gap:8px}}
