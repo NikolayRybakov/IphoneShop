@@ -5,16 +5,7 @@
     }
 }
 
-@media (width: 1024px) {
-    .review{
-        &__star{
-            height: 20px;
-            width: 20px;
-        }
-    }
-}
-
-@media (width: 360px) {
+@media (max-width: 1160px) {
     .review{
         &__star{
             height: 20px;

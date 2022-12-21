@@ -5,21 +5,3 @@
         object-fit: cover;
     }
 }
-
-@media (width: 1024px){
-    .iphone{
-        &__img{
-            max-width: 214px;
-            max-height: 272px;
-        }
-    }
-}
-
-@media (width: 360px){
-    .iphone{
-        &__img{
-            max-width: 214px;
-            max-height: 272px;
-        }
-    }
-}

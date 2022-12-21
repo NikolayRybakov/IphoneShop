@@ -13,7 +13,7 @@
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 980px) {
     .menu{
         &__item{
             font-size: 14px;

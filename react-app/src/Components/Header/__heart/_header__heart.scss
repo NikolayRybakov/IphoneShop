@@ -6,8 +6,6 @@
         right: 20px;
         font-size: 14px;
         line-height: 14px;
-        width: 26px;
-        height: 20px;
         background: #F36223;
         padding: 3px 5px;
         color: #ffffff;
@@ -24,10 +22,26 @@
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 540px) {
     .header {
         &__heart {
-            width: 26px;
+            position: relative;
+            top: 0px;
+            right: -5px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .header {
+        &__heart::after {
+            content: "";
+            position: relative;
+            top: -18px;
+            right: 8px;
+            font-size: 0;
+            line-height: 0;
+            padding: 5px 5px;
         }
     }
 }

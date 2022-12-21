@@ -4,7 +4,7 @@
     }
 }
 
-@media (width: 1024px) {
+@media (max-width: 1160px) {
     .form-review {
         &_padding {
             padding: 60px 0 60px 0px;
@@ -12,11 +12,10 @@
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 540px) {
     .form-review {
         &_padding {
             padding: 40px 0 40px 0px;
-            max-width: 335px;
         }
     }
 }

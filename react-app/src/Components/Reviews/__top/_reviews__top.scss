@@ -7,10 +7,11 @@
     }
 }
 
-@media (width: 360px) {
-    .reviews{
-        &__top{
-            margin-bottom: 20px;
+@media (max-width: 980px) {
+    .reviews {
+        &__top {
+            margin-bottom: 15px;
         }
     }
 }
+

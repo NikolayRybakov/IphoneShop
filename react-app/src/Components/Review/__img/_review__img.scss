@@ -1,4 +1,4 @@
-@media (width: 1024px) {
+@media (max-width: 1160px) {
     .review{
         &__img{
             width: 100px;
@@ -7,11 +7,12 @@
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 980px) {
     .review{
         &__img{
-            width: 60px;
-            height: 60px;
+            width: 80px;
+            height: 80px;
         }
     }
 }
+

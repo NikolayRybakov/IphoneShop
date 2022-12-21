@@ -12,18 +12,26 @@
     }
 }
 
-@media (width: 1024px) {
-    .form-review{
-        &__textarea-box{
+@media (max-width: 1160px) {
+    .form-review {
+        &__textarea-box {
             width: 594px;
         }
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 980px) {
     .form-review {
         &__textarea-box {
-            max-width: 335px; 
+            width: 480px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .form-review {
+        &__textarea-box {
+            width: 335px; 
         }
     }
 }

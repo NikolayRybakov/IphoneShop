@@ -12,7 +12,7 @@
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 540px) {
     .form-review {
         &__button {
             max-width: 150px;

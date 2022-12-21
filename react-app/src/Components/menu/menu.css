@@ -16,7 +16,7 @@
   margin-right: 10px;
 }
 
-@media (width: 360px) {
+@media (max-width: 980px) {
   .menu__item {
     font-size: 14px;
     line-height: 17px;

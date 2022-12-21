@@ -1,6 +1,29 @@
 .description{
     &__inner{
         max-width: 880px;
-        min-height: 390px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .description {
+        &__inner {
+            max-width: 594px;
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .description {
+        &__inner {
+            max-width: 480px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .description {
+        &__inner {
+            max-width: 100%;
+        }
     }
 }

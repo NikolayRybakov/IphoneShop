@@ -12,7 +12,7 @@
     }
 }
 
-@media (width: 1024px) {
+@media (max-width: 1160px) {
     .form-review {
         &__input-text {
             width: 378px;
@@ -20,10 +20,18 @@
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 980px) {
     .form-review {
         &__input-text {
-            max-width: 335px;
+            width: 310px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .form-review {
+        &__input-text {
+            width: 335px;
             margin-bottom: 10px;
         }
     }

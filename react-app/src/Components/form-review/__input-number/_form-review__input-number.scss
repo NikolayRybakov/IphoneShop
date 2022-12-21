@@ -13,7 +13,15 @@
     }
 }
 
-@media (width: 360px) {
+@media (max-width: 980px) {
+    .form-review {
+        &__input-number {
+            width: 129px;
+        }
+    }
+}
+
+@media (max-width: 540px) {
     .form-review {
         &__input-number {
             width: 335px;

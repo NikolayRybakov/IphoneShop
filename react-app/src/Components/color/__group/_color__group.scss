@@ -3,9 +3,9 @@
     gap: 10px;
 }
 
-@media (width: 360px) {
+@media (max-width: 540px) {
     .color__group{
-        max-width: 332px;
+        max-width: 100%;
         flex-wrap: wrap;
         gap: 8px;
     }

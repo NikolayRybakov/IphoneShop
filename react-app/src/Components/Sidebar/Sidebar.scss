@@ -4,9 +4,3 @@
 .sidebar{
     flex-shrink: 0;
 }
-
-@media (width: 1024px) {
-    .sidebar{
-        max-width: 360px; 
-    }
-}

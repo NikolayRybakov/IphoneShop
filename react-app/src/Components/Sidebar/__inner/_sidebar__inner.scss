@@ -5,3 +5,21 @@
         max-width: 420px;
     }
 }
+
+@media (max-width: 1160px) {
+    .sidebar{
+        &__inner{
+            max-width: 360px;
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .sidebar{
+        &__inner{
+            max-width: 300px;
+        }
+    }
+}
+
+
