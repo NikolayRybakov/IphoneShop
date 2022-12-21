@@ -1,19 +1,21 @@
+import classes from "./breadcrumps.module.css";
+
 const Breadcrumps = () => {
     return (
-        <div className="breadcrumps">
+        <div className={classes.breadcrumps}>
             <div className="container">
-                <ul className="breadcrumps__list">
-                    <li className="breadcrumps__item">
-                        <a className="breadcrumps__link" href="/">Электроника </a>
+                <ul className={classes.breadcrumps__list}>
+                    <li className={classes.breadcrumps__item}>
+                        <a className={classes.breadcrumps__link} href="/">Электроника </a>
                     </li>
-                    <li className="breadcrumps__item">
-                        <a className="breadcrumps__link" href="/">Смарфтоны и гаджеты </a>
+                    <li className={classes.breadcrumps__item}>
+                        <a className={classes.breadcrumps__link} href="/">Смарфтоны и гаджеты </a>
                     </li>
-                    <li className="breadcrumps__item">
-                        <a className="breadcrumps__link" href="/">Мобильные телефоны </a>
+                    <li className={classes.breadcrumps__item}>
+                        <a className={classes.breadcrumps__link} href="/">Мобильные телефоны </a>
                     </li>
-                    <li className="breadcrumps__item">
-                        <a className="breadcrumps__link" href="/">Apple</a>
+                    <li className={classes.breadcrumps__item}>
+                        <a className={classes.breadcrumps__link} href="/">Apple</a>
                     </li>
                 </ul>
             </div>

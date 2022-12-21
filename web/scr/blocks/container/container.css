@@ -1,16 +1,1 @@
-.container {
-  max-width: 1500px;
-  padding: 0 50px;
-  margin: 0 auto;
-}
-
-@media (max-width: 1160px) {
-  .container {
-    padding: 0 15px;
-  }
-}
-@media (max-width: 540px) {
-  .container {
-    padding: 0 10px;
-  }
-}/*# sourceMappingURL=container.css.map */
+.container{max-width:1500px;padding:0 50px;margin:0 auto}@media(max-width: 1160px){.container{padding:0 15px}}@media(max-width: 540px){.container{padding:0 10px}}

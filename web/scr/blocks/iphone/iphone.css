@@ -1,17 +1,1 @@
-.iphone__inner {
-  display: flex;
-  justify-content: space-between;
-}
-
-.iphone__img {
-  max-height: 387px;
-  max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-@media (max-width: 540px) {
-  .iphone_disabled {
-    display: none;
-  }
-}/*# sourceMappingURL=iphone.css.map */
+.iphone__inner{display:flex;justify-content:space-between}.iphone__img{max-height:387px;max-width:100%;object-fit:cover}@media(max-width: 540px){.iphone_disabled{display:none}}
