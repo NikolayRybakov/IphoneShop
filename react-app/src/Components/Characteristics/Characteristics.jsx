@@ -1,8 +1,8 @@
 import Color from "../color/Color";
-import Description from "../description/Description";
-import Goods from "../goods/Goods";
-import Memory from "../memory/Memory";
-import Sidebar from "../sidebar/Sidebar";
+import Description from "../Description/Description";
+import Goods from "../Goods/Goods";
+import Memory from "../Memory/Memory";
+import Sidebar from "../Sidebar/Sidebar";
 
 const Characteristics = () => {
     return (

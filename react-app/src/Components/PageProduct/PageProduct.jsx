@@ -1,8 +1,8 @@
-import Header from "../header/Header";
+import Header from "../Header/Header";
 import Breadcrumps from "../breadcrumps/Breadcrumps";
-import Iphone from "../iphone/Iphone";
+import Iphone from "../Iphone/Iphone";
 import Info from "../Info/Info";
-import Reviews from "../reviews/Reviews";
+import Reviews from "../Reviews/Reviews";
 
 const PageProduct = () => {
     return (

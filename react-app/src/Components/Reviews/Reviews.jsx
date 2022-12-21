@@ -1,5 +1,5 @@
 import Line from "../line/Line";
-import Review from "../review/Review";
+import Review from "../Review/Review";
 
 const Reviews = () => {
     return (
