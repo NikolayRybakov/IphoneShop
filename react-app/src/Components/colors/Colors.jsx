@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Color from '../Color/Color';
+import Color from '../color/Color';
 import color1 from './../../static/images/color-1.webp';
 import color2 from './../../static/images/color-2.webp';
 import color3 from './../../static/images/color-3.webp';
